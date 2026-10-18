@@ -1,0 +1,10 @@
+{
+  "code": "en",
+  "name": "English",
+  "english_name": "English",
+  "mod_name": "Riviera_EN",
+  "scope": "official",
+  "platforms": {
+    "android": {}
+  }
+}

@@ -1,0 +1,349 @@
+{
+ "containers": {
+  "android": {
+   "data/Backup/backup.pck": {
+    "backup_backup_button.webp": {
+     "base": "8a4bd693f8804052403444daa95b3f18cdd4ddfd",
+     "encode": "plain",
+     "kind": "layer",
+     "ops": [
+      {
+       "box": [
+        0,
+        0,
+        349,
+        217
+       ],
+       "from": null,
+       "op": "copy",
+       "to": [
+        0,
+        0
+       ]
+      },
+      {
+       "op": "erase_enclosed"
+      },
+      {
+       "at": [
+        91,
+        42
+       ],
+       "file": "backup_backup__backup_backup_button__text.png",
+       "op": "layer"
+      }
+     ],
+     "size": [
+      349,
+      217
+     ]
+    },
+    "backup_clear.webp": {
+     "base": "20c4c3a6bea0d49bde633243026ca531436dbd28",
+     "file": "backup_backup__backup_clear.webp",
+     "kind": "full"
+    },
+    "backup_data_cloud.webp": {
+     "base": "b85b28af7139a221a4c8d1c0f4edc1d6cd024b8d",
+     "encode": "plain",
+     "kind": "layer",
+     "ops": [
+      {
+       "box": [
+        0,
+        0,
+        5,
+        42
+       ],
+       "from": null,
+       "op": "copy",
+       "to": [
+        0,
+        0
+       ]
+      },
+      {
+       "box": [
+        355,
+        0,
+        360,
+        42
+       ],
+       "from": null,
+       "op": "copy",
+       "to": [
+        355,
+        0
+       ]
+      },
+      {
+       "at": [
+        69,
+        5
+       ],
+       "file": "backup_backup__backup_data_cloud__text.png",
+       "op": "layer"
+      }
+     ],
+     "size": [
+      360,
+      42
+     ]
+    },
+    "backup_data_now.webp": {
+     "base": "2c6c9b7612c030a63332ec34fb5d31097e17078b",
+     "encode": "plain",
+     "kind": "layer",
+     "ops": [
+      {
+       "box": [
+        0,
+        0,
+        5,
+        42
+       ],
+       "from": null,
+       "op": "copy",
+       "to": [
+        0,
+        0
+       ]
+      },
+      {
+       "box": [
+        355,
+        0,
+        360,
+        42
+       ],
+       "from": null,
+       "op": "copy",
+       "to": [
+        355,
+        0
+       ]
+      },
+      {
+       "at": [
+        50,
+        5
+       ],
+       "file": "backup_backup__backup_data_now__text.png",
+       "op": "layer"
+      }
+     ],
+     "size": [
+      360,
+      42
+     ]
+    },
+    "backup_dataload_button.webp": {
+     "base": "df34bc5747b1b9fe7b91ea5d526a5646fa23263f",
+     "encode": "plain",
+     "kind": "layer",
+     "ops": [
+      {
+       "box": [
+        0,
+        0,
+        349,
+        218
+       ],
+       "from": null,
+       "op": "copy",
+       "to": [
+        0,
+        0
+       ]
+      },
+      {
+       "op": "erase_enclosed"
+      },
+      {
+       "at": [
+        116,
+        46
+       ],
+       "file": "backup_backup__backup_dataload_button__text.png",
+       "op": "layer"
+      }
+     ],
+     "size": [
+      349,
+      218
+     ]
+    },
+    "backup_day.webp": {
+     "base": "bfafd2f53e0a7193e19373af9694b1f7bf5e1a36",
+     "file": "backup_backup__backup_day.webp",
+     "kind": "full"
+    },
+    "backup_item_count.webp": {
+     "base": "5d02f87197e7c826231954d1f59605ce3ed8f1cf",
+     "file": "backup_backup__backup_item_count.webp",
+     "kind": "full"
+    },
+    "backup_ko.webp": {
+     "base": "d90965551eeef6836df510a63d7b9e549d895ecf",
+     "file": "backup_backup__backup_ko.webp",
+     "kind": "full"
+    },
+    "backup_no_clear.webp": {
+     "base": "0e542e49b852bbb0dc05a8c8707f61af69c64305",
+     "file": "backup_backup__backup_no_clear.webp",
+     "kind": "full"
+    },
+    "backup_nodata.webp": {
+     "base": "bb2cbb1d9508fa43e6681e17d58af127cce26a9c",
+     "file": "backup_backup__backup_nodata.webp",
+     "kind": "full"
+    },
+    "backup_save_count.webp": {
+     "base": "9ce6ac7bc6f9c0cccb755de5ed19eac031469b2c",
+     "file": "backup_backup__backup_save_count.webp",
+     "kind": "full"
+    }
+   },
+   "data/System/config.pck": {
+    "txt_view_width.webp": {
+     "base": "3321fc675c09b30b2c0dca3e601e7e9f57974c10",
+     "file": "system_config__txt_view_width.webp",
+     "kind": "full"
+    },
+    "txt_view_width2.webp": {
+     "base": "0401445fdb942cc5848d0e20a5886f65e077367f",
+     "file": "system_config__txt_view_width2.webp",
+     "kind": "full"
+    }
+   },
+   "data/System/systemTexture.pck": {
+    "important.webp": {
+     "base": "db9bdeb14d547ea4e02879f55409d2c7196e3199",
+     "file": "system_systemtexture__important.webp",
+     "kind": "full"
+    },
+    "trigger_mode.webp": {
+     "base": "75fd2d9bb02eace9aec4a4917a3952f339d57ea8",
+     "bleed": [
+      255,
+      255,
+      255
+     ],
+     "kind": "layer",
+     "ops": [
+      {
+       "box": [
+        0,
+        0,
+        384,
+        92
+       ],
+       "from": null,
+       "op": "copy",
+       "to": [
+        0,
+        0
+       ]
+      },
+      {
+       "at": [
+        0,
+        92
+       ],
+       "file": "system_systemtexture__trigger_mode__look.png",
+       "op": "layer"
+      }
+     ],
+     "size": [
+      384,
+      192
+     ]
+    }
+   },
+   "data/System/systemTexture3.pck": {
+    "text_en.webp": {
+     "base": "c901c4dc5fe897365113bfda62ec168df40eaa65",
+     "bleed": [
+      205,
+      255,
+      255
+     ],
+     "kind": "layer",
+     "ops": [
+      {
+       "at": [
+        0,
+        0
+       ],
+       "file": "system_systemtexture3__text_en__text.png",
+       "op": "layer"
+      },
+      {
+       "box": [
+        193,
+        0,
+        272,
+        88
+       ],
+       "from": "text_jp.webp",
+       "op": "copy",
+       "to": [
+        145,
+        0
+       ]
+      }
+     ],
+     "size": [
+      232,
+      88
+     ]
+    },
+    "text_jp.webp": {
+     "base": "3eafbdeb334b2bb91b5984e1dd53f42e65dce0e5",
+     "bleed": [
+      205,
+      255,
+      255
+     ],
+     "kind": "layer",
+     "ops": [
+      {
+       "at": [
+        0,
+        0
+       ],
+       "file": "system_systemtexture3__text_jp__text.png",
+       "op": "layer"
+      },
+      {
+       "box": [
+        193,
+        0,
+        272,
+        88
+       ],
+       "from": "text_jp.webp",
+       "op": "copy",
+       "to": [
+        193,
+        0
+       ]
+      }
+     ],
+     "size": [
+      280,
+      88
+     ]
+    }
+   },
+   "data/skillname/eskillName00.webp": {
+    "*": {
+     "base": "fd37c3d8b6cbc35bc85d1c3f00f77ab0b8389afa",
+     "file": "skillname_eskillname00__file.webp",
+     "kind": "full"
+    }
+   }
+  }
+ },
+ "format": 1
+}

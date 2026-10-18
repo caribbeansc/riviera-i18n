@@ -1,0 +1,339 @@
+{
+ "System/boost.pck": {
+  "txt_item_random2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Con ON se puede elegir el contenido del tesoro.",
+   "thr": 100,
+   "minscale": 0.5
+  },
+  "txt_win_boost2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Fuerza la victoria contra un enemigo ya combatido. ※Solo con transferencia",
+   "thr": 100,
+   "minscale": 0.5
+  }
+ },
+ "System/config.pck": {
+  "content_txt_config.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Cambia las preferencias del juego.",
+   "thr": 100,
+   "minscale": 0.5
+  },
+  "txt_controller2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Intercambia la posición del botón OK.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_cursor_kioku2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Recuerda el cursor de habilidades de cada personaje.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_dot_effects2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Cambia la suavidad de los píxeles.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_dot_filter2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Muestra una trama de píxeles como de LCD.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_enecutin_short2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Omite la escena de la habilidad especial del enemigo.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_item_kioku2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Recuerda los objetos usados en la batalla anterior.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_language_voice2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Cambia el idioma de las voces.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_soundset2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Cambia el conjunto de fuentes de sonido.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_team_kioku_2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Conserva la formación anterior.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_eneselect_short2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Muestra las habilidades del enemigo en cada ataque.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_soundset_txt_1.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Fuentes de sonido de la versión de 2002.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_soundset_txt_2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Fuentes de sonido de la versión de 2004.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_soundset_txt_3.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Fuentes de sonido de la versión arreglada de 2002.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_soundset_txt_4.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Fuentes de sonido de la versión de 2006.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_soundset_txt_5.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Fuentes de sonido de imagen de la versión de 2002.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_battle_hint2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Muestra consejos de estrategia al preparar la batalla.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_image_color2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Cambia algunos colores de pantalla durante el juego.",
+   "thr": 100,
+   "maxw": 780,
+   "minscale": 0.42
+  },
+  "txt_item_hint2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Muestra pistas sobre dónde obtener objetos.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_se_change2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Cambia algunos efectos de sonido a los de 2004.",
+   "thr": 100,
+   "maxw": 780,
+   "minscale": 0.42
+  },
+  "txt_speed_cont2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Con ON la velocidad es constante; con OFF se duplica.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_timeline_view2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Muestra la línea de tiempo en batalla.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_trigger_view2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Muestra el disparador tenue en modo MOVE.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_controller_view2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Muestra los botones del mando en pantalla.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_wait_animation2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Muestra una animación que reduce el tiempo de espera.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_dot_color2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Cambia el color de píxeles de algunos personajes a otro patrón.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_play_cat_voice2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Con ON se oirá el maullido de Rose.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_play_control2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Con ON se muestra el mando virtual durante los AT.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_screen_size2.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Con ON el juego empieza con el tamaño de ventana anterior.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "txt_button_type_switching2_EN.webp": {
+   "estilo": "flat_tahoma",
+   "texto": "Cambia el tipo de botones que se muestran.",
+   "thr": 100,
+   "maxw": 874,
+   "minscale": 0.42
+  },
+  "config_battle_headtxt.webp": {
+   "estilo": "patch",
+   "texto": "Cambia el estilo de batalla durante el combate.",
+   "font": "tahoma",
+   "fill": [
+    222,
+    222,
+    222
+   ],
+   "clear": [
+    328,
+    0,
+    1034,
+    60
+   ],
+   "erase": "transparent",
+   "tbox": [
+    328,
+    11,
+    1029,
+    54
+   ],
+   "align": "left",
+   "grow": true,
+   "maxw": 701,
+   "minscale": 0.6,
+   "thr": 100
+  },
+  "Config_others_headtxt.webp": {
+   "estilo": "patch",
+   "texto": "Ajusta los controles, la calidad de imagen y los efectos de filtro al conectar un mando.",
+   "font": "tahoma",
+   "fill": [
+    222,
+    222,
+    222
+   ],
+   "clear": [
+    328,
+    0,
+    1683,
+    58
+   ],
+   "erase": "transparent",
+   "tbox": [
+    328,
+    13,
+    1678,
+    53
+   ],
+   "align": "left",
+   "grow": true,
+   "maxw": 1350,
+   "minscale": 0.6,
+   "thr": 100
+  },
+  "config_sound_headtxt.webp": {
+   "estilo": "patch",
+   "texto": "Cambia la calidad y el volumen del sonido.",
+   "font": "tahoma",
+   "fill": [
+    222,
+    222,
+    222
+   ],
+   "clear": [
+    330,
+    0,
+    1136,
+    62
+   ],
+   "erase": "transparent",
+   "tbox": [
+    330,
+    13,
+    1131,
+    57
+   ],
+   "align": "left",
+   "grow": true,
+   "maxw": 801,
+   "minscale": 0.6,
+   "thr": 100
+  },
+  "Config_usabillity_headtxt.webp": {
+   "estilo": "patch",
+   "texto": "Ajusta cómo se muestra la interfaz.",
+   "font": "tahoma",
+   "fill": [
+    222,
+    222,
+    222
+   ],
+   "clear": [
+    407,
+    0,
+    1087,
+    62
+   ],
+   "erase": "transparent",
+   "tbox": [
+    407,
+    14,
+    1082,
+    56
+   ],
+   "align": "left",
+   "grow": true,
+   "maxw": 675,
+   "minscale": 0.6,
+   "thr": 100
+  }
+ }
+}

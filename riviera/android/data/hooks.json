@@ -1,0 +1,175 @@
+{
+ "base": 20119552,
+ "hooks": [
+  {
+   "addr": 5835176,
+   "cave": 2692,
+   "kind": "post",
+   "name": "code_pos",
+   "orig": "23ad793e3b71",
+   "resume": null,
+   "resume_orig": null,
+   "slot": 2824
+  },
+  {
+   "addr": 5835596,
+   "cave": 2832,
+   "kind": "skip",
+   "name": "code_adv",
+   "orig": "08864e203802",
+   "resume": 5835640,
+   "resume_orig": "5162d1abda06",
+   "slot": null
+  },
+  {
+   "addr": 5839220,
+   "cave": 2968,
+   "kind": "post",
+   "name": "sys_pos",
+   "orig": "788ddec7ba1b",
+   "resume": null,
+   "resume_orig": null,
+   "slot": 3100
+  },
+  {
+   "addr": 5839560,
+   "cave": 3108,
+   "kind": "skip",
+   "name": "sys_adv",
+   "orig": "70d96346646a",
+   "resume": 5839584,
+   "resume_orig": "8efc06b9c01f",
+   "slot": null
+  },
+  {
+   "addr": 5837264,
+   "cave": 3244,
+   "kind": "asm",
+   "name": "sys_pitch",
+   "orig": "57bcd1a68c16",
+   "resume": null,
+   "resume_orig": null,
+   "slot": 3256
+  },
+  {
+   "addr": 7684344,
+   "cave": 3264,
+   "kind": "post",
+   "name": "conf_box",
+   "orig": "67fead25560c",
+   "resume": null,
+   "resume_orig": null,
+   "slot": 3396
+  },
+  {
+   "addr": 7684396,
+   "cave": 3404,
+   "kind": "post",
+   "name": "conf_text",
+   "orig": "7bba87a25e9f",
+   "resume": null,
+   "resume_orig": null,
+   "slot": 3536
+  },
+  {
+   "addr": 5823176,
+   "cave": 3544,
+   "kind": "skip",
+   "name": "msg_scale",
+   "orig": "de047d6fc86b",
+   "resume": null,
+   "resume_orig": null,
+   "slot": null
+  }
+ ],
+ "init_charset": {
+  "addr": 5820596,
+  "orig": "a5f38922c03f",
+  "reg": 1
+ },
+ "library_sha256": "6ac6bedc3d59de44c256d7f676b7775a97dc774dd79cd725985ac1d18fc8de7f",
+ "patches": [
+  {
+   "addr": 5832852,
+   "new": "0150241e",
+   "orig": "bbfb98900df2",
+   "what": "FNT_setCode: U+3000 advances 9 * scale"
+  },
+  {
+   "addr": 5826772,
+   "new": "0150241e",
+   "orig": "8d418fa09ff2",
+   "what": "calcStringWidth: U+3000 advances 9 * scale"
+  },
+  {
+   "addr": 5838820,
+   "new": "2905480b",
+   "orig": "8b37b5fbb893",
+   "what": "FNT_setSystem: U+3000 advances pitch + cell / 2"
+  },
+  {
+   "addr": 7695680,
+   "new": "82ed8052",
+   "orig": "a2b182c2f9d5",
+   "what": "CDiff::disp: bottom note at x 0x76c instead of 0x5a8"
+  },
+  {
+   "addr": 7695696,
+   "new": "46008052",
+   "orig": "92280eab8023",
+   "what": "CDiff::disp: bottom note flags 0 -> 2 (right aligned)"
+  },
+  {
+   "addr": 7684364,
+   "new": "a2435d78",
+   "orig": "16d083ae9b52",
+   "what": "CConfMsg::disp: box width = the one hk_conf_box leaves at [x29,-0x2c]"
+  },
+  {
+   "addr": 7684400,
+   "new": "02010a0b",
+   "orig": "9b796a7dd861",
+   "what": "CConfMsg::disp: x of the text = box width / 2"
+  }
+ ],
+ "replace": [
+  {
+   "addr": 5828280,
+   "orig": "66f19edb8dd2",
+   "to": 856,
+   "what": "hk_getwidth"
+  },
+  {
+   "addr": 5827256,
+   "orig": "feab40413e54",
+   "to": 1384,
+   "what": "hk_fontpitch"
+  }
+ ],
+ "size": 11966,
+ "tables": {
+  "M1": {
+   "count": 82,
+   "first": 251,
+   "off": 3680,
+   "size": 492
+  },
+  "M2": {
+   "count": 58,
+   "first": 2204,
+   "off": 4172,
+   "size": 348
+  },
+  "M3": {
+   "count": 9,
+   "first": 2378,
+   "off": 4520,
+   "size": 54
+  },
+  "charset": {
+   "off": 4574,
+   "size": 7392
+  }
+ },
+ "version": 1
+}

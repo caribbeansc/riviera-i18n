@@ -1,0 +1,35 @@
+This is an unofficial, non-commercial fan project. It is not affiliated with,
+endorsed by, or connected to Sting Entertainment, Nintendo, Google, or any other
+rights holder of the Riviera series.
+
+*Riviera: The Promised Land* and all related names, characters and artwork are the
+property of their respective owners.
+
+What this repository contains
+-----------------------------
+
+Tools, documentation, and translations of the game's text into other languages.
+
+What it deliberately does not contain
+-------------------------------------
+
+Any part of the game: no executable, no data containers, no artwork, no fonts,
+no audio, and **not one line of the original script**, in English or in
+Japanese. Translations are stored as a key plus a fingerprint of the source
+string, never the source string itself (docs/specs/SPEC-005-translation-keys.md).
+Translated artwork is either text that this project draws itself on an empty
+canvas, or the difference against an image that only you have
+(docs/specs/SPEC-003-image-delta.md).
+
+The tools read the game from *your own legally obtained copy*, on your own
+machine, and write a mod or a set of patched files that only works if you already
+have that copy. Nothing is uploaded anywhere.
+
+The Android build re-signs the app with a key made on your machine and, unless you
+ask it not to (`--keep-license-check`), switches off the Google Play licence check
+inside the copy it is patching, because a re-signed copy cannot pass it. That is a
+change to a file of your own copy, it is documented (docs/ANDROID.md,
+docs/specs/SPEC-012-license-check.md), and it is meant for an app you bought.
+
+Do not ask this project for game files, and do not open issues or pull requests
+that include them, including screenshots of the original script.

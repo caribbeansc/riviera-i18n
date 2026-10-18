@@ -1,0 +1,1235 @@
+{
+ "format": 1,
+ "containers": {
+  "data_en.bin": {
+   "data/System/boost.pck": {
+    "txt_item_random2.webp": {
+     "base": "13ae1c1adba42733e7d987e25f392a9c2d60c33f",
+     "kind": "full",
+     "file": "data_en/data/System/boost.pck/txt_item_random2.webp"
+    },
+    "txt_win_boost2.webp": {
+     "base": "70dfef7d51fed2deb1617afd143cb133a2775861",
+     "kind": "full",
+     "file": "data_en/data/System/boost.pck/txt_win_boost2.webp"
+    }
+   },
+   "data/System/config.pck": {
+    "config_battle_headtxt.webp": {
+     "base": "c3d0dea58f291e503b20d1b7364765c8fdee91a2",
+     "kind": "delta",
+     "overlay": "data_en/data/System/config.pck/config_battle_headtxt.png",
+     "mask": "data_en/data/System/config.pck/config_battle_headtxt.mask.png",
+     "changed": 0.592
+    },
+    "Config_others_headtxt.webp": {
+     "base": "7de9547749208208964a9c118a002d6c3e4ba4e2",
+     "kind": "delta",
+     "overlay": "data_en/data/System/config.pck/Config_others_headtxt.png",
+     "mask": "data_en/data/System/config.pck/Config_others_headtxt.mask.png",
+     "changed": 0.652
+    },
+    "config_sound_headtxt.webp": {
+     "base": "7aef9bd758f37e1eb187ed614079bd1af256c8fe",
+     "kind": "delta",
+     "overlay": "data_en/data/System/config.pck/config_sound_headtxt.png",
+     "mask": "data_en/data/System/config.pck/config_sound_headtxt.mask.png",
+     "changed": 0.595
+    },
+    "content_txt_config.webp": {
+     "base": "7098ee7fa93712ad9780747367e44dacc814df16",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/content_txt_config.webp"
+    },
+    "txt_controller2.webp": {
+     "base": "49fcde62a58d7c4a74422e4c1d395b448a8e470c",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_controller2.webp"
+    },
+    "txt_cursor_kioku2.webp": {
+     "base": "e7a33878b44c6a4e35b0ad0a2e5bebe774a06f87",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_cursor_kioku2.webp"
+    },
+    "txt_dot_effects2.webp": {
+     "base": "07356e03282376ef76ce2e7f8ad7e7dd3f534ad4",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_dot_effects2.webp"
+    },
+    "txt_dot_filter2.webp": {
+     "base": "952087796245a9cee0b5b21f6a1e8adbe610dc66",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_dot_filter2.webp"
+    },
+    "txt_enecutin_short2.webp": {
+     "base": "d51bb7a94f6ea8a12e784727ab819959ecb45495",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_enecutin_short2.webp"
+    },
+    "txt_item_kioku2.webp": {
+     "base": "0589d13915ec03d9aa0ac372c05ccbf27da54224",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_item_kioku2.webp"
+    },
+    "txt_language_voice2.webp": {
+     "base": "fe54448e384e4899357f426b3ff2c885f63f4ff4",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_language_voice2.webp"
+    },
+    "txt_soundset2.webp": {
+     "base": "7699913cbc65c1e9b251788687c6b3ac51b2e5b7",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_soundset2.webp"
+    },
+    "txt_team_kioku_2.webp": {
+     "base": "d0ad54d5d74310a99b29dd33aaa394231069b430",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_team_kioku_2.webp"
+    },
+    "txt_eneselect_short2.webp": {
+     "base": "d84f0c0ed56575a5924eb2ebedc4277dc0b064ec",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_eneselect_short2.webp"
+    },
+    "txt_soundset_txt_1.webp": {
+     "base": "de6c4caa8b3e8011f6a006ec8a8144dd8ffccaf7",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_soundset_txt_1.webp"
+    },
+    "txt_soundset_txt_2.webp": {
+     "base": "fa90ea82eb805e670cce1692a0ec590a6cc1138c",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_soundset_txt_2.webp"
+    },
+    "txt_soundset_txt_3.webp": {
+     "base": "a88e1a76fe182b5b0f49d94db11b7784c3e5d359",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_soundset_txt_3.webp"
+    },
+    "txt_soundset_txt_4.webp": {
+     "base": "9cbd446543ca325f57a52820260c53c57bd5eea6",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_soundset_txt_4.webp"
+    },
+    "txt_soundset_txt_5.webp": {
+     "base": "09807f2f4b6ed7ca0415fc86d325f05b6865578a",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_soundset_txt_5.webp"
+    },
+    "Config_usabillity_headtxt.webp": {
+     "base": "8c40b1aceae5c346644fa7767d58270ef85a9976",
+     "kind": "delta",
+     "overlay": "data_en/data/System/config.pck/Config_usabillity_headtxt.png",
+     "mask": "data_en/data/System/config.pck/Config_usabillity_headtxt.mask.png",
+     "changed": 0.504
+    },
+    "txt_battle_hint2.webp": {
+     "base": "77cdff2ff757ef578a1156f333c882f6dbd5f970",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_battle_hint2.webp"
+    },
+    "txt_image_color2.webp": {
+     "base": "251a279257f2de1317fba1bbd8d097d9f7078912",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_image_color2.webp"
+    },
+    "txt_item_hint2.webp": {
+     "base": "04c2900750b76a602bb5b4e1e3bd49ec8e50fe9a",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_item_hint2.webp"
+    },
+    "txt_se_change2.webp": {
+     "base": "4add28227b10fe0a7579ab6a8e5038bec0ad1de9",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_se_change2.webp"
+    },
+    "txt_speed_cont2.webp": {
+     "base": "4f558a91eadeaf00bb066017366bfe4ccdd50560",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_speed_cont2.webp"
+    },
+    "txt_timeline_view2.webp": {
+     "base": "41e8f0d1f2f6fad8e4eef491dae7db6ed78dcef5",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_timeline_view2.webp"
+    },
+    "txt_trigger_view2.webp": {
+     "base": "369912ca24fc0dd24b6d129cfc8499605c10eb26",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_trigger_view2.webp"
+    },
+    "txt_controller_view2.webp": {
+     "base": "733d49c882b69a9d611e01fa53a56694aa354942",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_controller_view2.webp"
+    },
+    "txt_wait_animation2.webp": {
+     "base": "20bd27c93f3713e0d557ebce9fe73f338426b699",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_wait_animation2.webp"
+    },
+    "txt_dot_color2.webp": {
+     "base": "968e1f349505ffe6b73dad817bdc6014090ebd40",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_dot_color2.webp"
+    },
+    "txt_play_cat_voice2.webp": {
+     "base": "70015f09b8bc71b6beb706ed3fb0e567099d44b0",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_play_cat_voice2.webp"
+    },
+    "txt_play_control2.webp": {
+     "base": "be68993bbbe9894ef0744c9d42375b47f944225a",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_play_control2.webp"
+    },
+    "txt_screen_size2.webp": {
+     "base": "2a7009ee9d3e479d15bd4ea71e2aeaaa908f692c",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_screen_size2.webp"
+    },
+    "txt_button_type_switching2_EN.webp": {
+     "base": "cb34e71ea8031a3aa1d686c047e1a4b1b438fac9",
+     "kind": "full",
+     "file": "data_en/data/System/config.pck/txt_button_type_switching2_EN.webp"
+    }
+   },
+   "data/System/systemTexture.pck": {
+    "cutin_text.webp": {
+     "base": "afc71ea65bcd9a9aee59e85f46af9b2d05ddc58c",
+     "kind": "full",
+     "file": "data_en/data/System/systemTexture.pck/cutin_text.webp"
+    }
+   },
+   "data/event/bg_ending.pck": {
+    "ext1_en39.webp": {
+     "base": "d3fc633e5710ffd72326cbd19b434543caa18d0e",
+     "kind": "full",
+     "file": "data_en/data/event/bg_ending.pck/ext1_en39.webp"
+    }
+   },
+   "data/event/chapter1.pck": {
+    "chap1_cap.webp": {
+     "base": "1530cdade9871efbda186d7325f667950228459c",
+     "kind": "full",
+     "file": "data_en/data/event/chapter1.pck/chap1_cap.webp"
+    }
+   },
+   "data/event/chapter2.pck": {
+    "chap2_cap.webp": {
+     "base": "ebf107fd67ea89254f5e2ab9bc5420bcffc42802",
+     "kind": "full",
+     "file": "data_en/data/event/chapter2.pck/chap2_cap.webp"
+    }
+   },
+   "data/event/chapter3.pck": {
+    "chap3_cap.webp": {
+     "base": "13be2dfccfc5b3776c7c3af779fb9c5e6d1b9373",
+     "kind": "full",
+     "file": "data_en/data/event/chapter3.pck/chap3_cap.webp"
+    }
+   },
+   "data/event/chapter4.pck": {
+    "chap4_cap.webp": {
+     "base": "845ab5db3b689c868808302aba69d025b5d39bc8",
+     "kind": "full",
+     "file": "data_en/data/event/chapter4.pck/chap4_cap.webp"
+    }
+   },
+   "data/event/chapter5.pck": {
+    "chap5_cap.webp": {
+     "base": "0ffa30889b1b5ad31fd527757a0fc4e38fa055ed",
+     "kind": "full",
+     "file": "data_en/data/event/chapter5.pck/chap5_cap.webp"
+    }
+   },
+   "data/event/chapter6.pck": {
+    "chap6_cap.webp": {
+     "base": "e597531ffa5e39a8b7e721f39934d5743dc2fa70",
+     "kind": "full",
+     "file": "data_en/data/event/chapter6.pck/chap6_cap.webp"
+    }
+   },
+   "data/event/chapter7.pck": {
+    "chap7_cap.webp": {
+     "base": "fd4143f0ffcbe37e2e987012a264590ed93624c5",
+     "kind": "full",
+     "file": "data_en/data/event/chapter7.pck/chap7_cap.webp"
+    }
+   },
+   "data/event/chapter8.pck": {
+    "chap8_cap.webp": {
+     "base": "9ee0e396b77362f50dd8396b348eb0a0f4493f0e",
+     "kind": "full",
+     "file": "data_en/data/event/chapter8.pck/chap8_cap.webp"
+    }
+   },
+   "data/event/demo1.pck": {
+    "story_00.webp": {
+     "base": "1478a15641586fd8c716b440e3286403d2f55c1c",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_00.webp"
+    },
+    "story_00_1.webp": {
+     "base": "05c9518759ab18bb83f9c82641ae3a2319e7b8e1",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_00_1.webp"
+    },
+    "story_01.webp": {
+     "base": "a481374039aeb28a85b0fd0fafd5fef52b5edf97",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_01.webp"
+    },
+    "story_01_1.webp": {
+     "base": "ee8f2eb8b564ad9e6a643aba258dbefc4361b6a2",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_01_1.webp"
+    },
+    "story_02.webp": {
+     "base": "de4836ab77a1aea2e717c85c1e366709b6bac3bd",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_02.webp"
+    },
+    "story_02_1.webp": {
+     "base": "23431165f89badf3e110958dc5a1c9a01510d1d3",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_02_1.webp"
+    },
+    "story_03.webp": {
+     "base": "b6d0976627d0e2d2d3e865772335b9386170356c",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_03.webp"
+    },
+    "story_03_1.webp": {
+     "base": "a854e46a805d067ab426e3068002a29cc2de84b9",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_03_1.webp"
+    },
+    "story_04.webp": {
+     "base": "ae6f756a779c81613c35edf15f537e0bb78265f8",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_04.webp"
+    },
+    "story_04_1.webp": {
+     "base": "9adb9feb60e8b966bca5df163e0f09ba451ed537",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_04_1.webp"
+    },
+    "story_05.webp": {
+     "base": "99216bf131cb6fa55449e028049dc5c0a73b7b9d",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_05.webp"
+    },
+    "story_05_1.webp": {
+     "base": "a1608c0178d79057148c304211c403be234556d1",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_05_1.webp"
+    },
+    "story_06.webp": {
+     "base": "cf70fe6937d2bddfce523cbccf0b02caa9f48895",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_06.webp"
+    },
+    "story_06_1.webp": {
+     "base": "60e1d00b6a8167acdeb1a0399e394e56b8670a31",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_06_1.webp"
+    },
+    "story_07.webp": {
+     "base": "0cb9f257bbcab1ac3c11482294fc7845ab83cd3c",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_07.webp"
+    },
+    "story_07_1.webp": {
+     "base": "d49e4f67a0585f5ac12317ccee5de4e135fa2581",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_07_1.webp"
+    },
+    "story_08.webp": {
+     "base": "6a0e1220b38ce4f75f988fd3eb725b164480930e",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_08.webp"
+    },
+    "story_08_1.webp": {
+     "base": "37a6c670401480235eaab5837cf449458c65b834",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_08_1.webp"
+    },
+    "story_09.webp": {
+     "base": "f7f6624e8024a801d7b2b03796a7e732b382d683",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_09.webp"
+    },
+    "story_09_1.webp": {
+     "base": "fe5cae5e555a18d2f66ee9da103b7fb99a79066e",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_09_1.webp"
+    },
+    "story_10.webp": {
+     "base": "9e9499c98ab48d4e50a75233ec6be271e5c8ed72",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_10.webp"
+    },
+    "story_10_1.webp": {
+     "base": "cd615bd6cccc13ad6af05da197a2e74c0f309677",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_10_1.webp"
+    },
+    "story_11.webp": {
+     "base": "a3aa72d3bb27fdba15c645b82ee8ed7beffc6aae",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_11.webp"
+    },
+    "story_11_1.webp": {
+     "base": "e4754fad71597666b0f321dcc1f18b71b21a8b2e",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_11_1.webp"
+    },
+    "story_12.webp": {
+     "base": "6b16691d5c3fd4a440f528414e7ef9a331808e24",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_12.webp"
+    },
+    "story_12_1.webp": {
+     "base": "c09a3fdbc8a3ed0989f0cdbe471acf2e4acd9c00",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_12_1.webp"
+    },
+    "story_13.webp": {
+     "base": "8a3818d52198bc222c5f3036f6592491a3427713",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_13.webp"
+    },
+    "story_13_1.webp": {
+     "base": "5aeeb49195451a88d016709649583cefa955fb15",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_13_1.webp"
+    },
+    "story_14.webp": {
+     "base": "3064f5175ec38828cb9bc5eb189e80e2928be964",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_14.webp"
+    },
+    "story_14_1.webp": {
+     "base": "8449a888b713486172e24e693b6c1712463b3b20",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_14_1.webp"
+    },
+    "story_15.webp": {
+     "base": "e0e06cd584f8dbd6141772fb60ca9650d6916fe8",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_15.webp"
+    },
+    "story_15_1.webp": {
+     "base": "20675fbb976779d5eaca888ab7285469f62017ab",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_15_1.webp"
+    },
+    "story_16.webp": {
+     "base": "deceabe3011886ee99a1a974bce3802639ead74e",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_16.webp"
+    },
+    "story_16_1.webp": {
+     "base": "bbd287860c9d343af13d96219d8e9ced59cc27f3",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_16_1.webp"
+    },
+    "story_17.webp": {
+     "base": "50d97b0f7cea7da2790e3e5e9aba96001f4f2b73",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_17.webp"
+    },
+    "story_17_1.webp": {
+     "base": "cde558a8d8b2bcac577d5cad155dbcc2f48ba3cb",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_17_1.webp"
+    },
+    "story_18.webp": {
+     "base": "da9ac91317e9ea82d9b4e56003417121c1694ee8",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_18.webp"
+    },
+    "story_18_1.webp": {
+     "base": "a21c0312e798199e208d846212d5df36350589b9",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_18_1.webp"
+    },
+    "story_19.webp": {
+     "base": "2a99850b65af1a66ab45ba45f2a27462ba818f43",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_19.webp"
+    },
+    "story_20.webp": {
+     "base": "cb82318dede330d078cfa31ecfcb939696fa265c",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/story_20.webp"
+    },
+    "scene_title_1.webp": {
+     "base": "0d8d14f3939c7c18d5e6f44cc08adf1296a622b8",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/scene_title_1.webp"
+    },
+    "scene_title_2.webp": {
+     "base": "cd2a45f974862887236e21fd6ba67c12e0b1ba34",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/scene_title_2.webp"
+    },
+    "scene_title_3.webp": {
+     "base": "b63088062dd9244503eeaf374c1d6e48dde9b358",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/scene_title_3.webp"
+    },
+    "scene_title_4.webp": {
+     "base": "b49acde3126d3279f9ffa1e205ded688a25cc7ab",
+     "kind": "full",
+     "file": "data_en/data/event/demo1.pck/scene_title_4.webp"
+    },
+    "1000year.webp": {
+     "base": "eb4b391ff58dc9da3d5a6dd6f9ca7d7461a1f528",
+     "kind": "delta",
+     "overlay": "data_en/data/event/demo1.pck/1000year.png",
+     "mask": "data_en/data/event/demo1.pck/1000year.mask.png",
+     "changed": 0.225
+    }
+   },
+   "data/event/demo2.pck": {
+    "chrCopy0.webp": {
+     "base": "91c7b76cf295253e70ef0ec9360f21f10f7e0d98",
+     "kind": "full",
+     "file": "data_en/data/event/demo2.pck/chrCopy0.webp"
+    },
+    "chrCopy1.webp": {
+     "base": "4ac3d165bff2ccc7af7f6c4c5b9a578dc0a29624",
+     "kind": "full",
+     "file": "data_en/data/event/demo2.pck/chrCopy1.webp"
+    },
+    "chrCopy2.webp": {
+     "base": "3e2021528e1d4da030761dc1736adade6abfa1e2",
+     "kind": "full",
+     "file": "data_en/data/event/demo2.pck/chrCopy2.webp"
+    },
+    "chrCopy3.webp": {
+     "base": "3af4d2892bc098cc28d1d491f661235917f226bf",
+     "kind": "full",
+     "file": "data_en/data/event/demo2.pck/chrCopy3.webp"
+    },
+    "chrCopy4.webp": {
+     "base": "8822a93b42007642169283ea91661e90d9eadcc3",
+     "kind": "full",
+     "file": "data_en/data/event/demo2.pck/chrCopy4.webp"
+    },
+    "chrCopy5.webp": {
+     "base": "884e1b8251dca85d8e6abf5346f2031139479124",
+     "kind": "full",
+     "file": "data_en/data/event/demo2.pck/chrCopy5.webp"
+    }
+   },
+   "data/event/e_00.pck": {
+    "ext1_en01.webp": {
+     "base": "69dd83d060ffc3bbfb0b7592ef6f660b2bb62290",
+     "kind": "full",
+     "file": "data_en/data/event/e_00.pck/ext1_en01.webp"
+    }
+   },
+   "data/event/e_01.pck": {
+    "ext1_en03.webp": {
+     "base": "5e643528571e997378835832e37a0c51e52fce4b",
+     "kind": "full",
+     "file": "data_en/data/event/e_01.pck/ext1_en03.webp"
+    }
+   },
+   "data/event/e_02a.pck": {
+    "ext1_en02.webp": {
+     "base": "8271a13fe14e4c564151e96e7cbbb63a8e65d96a",
+     "kind": "full",
+     "file": "data_en/data/event/e_02a.pck/ext1_en02.webp"
+    }
+   },
+   "data/event/e_02b.pck": {
+    "ext1_en05.webp": {
+     "base": "05a52b14d9fdc5f3dd36ac62e79aa1954a9dfd50",
+     "kind": "full",
+     "file": "data_en/data/event/e_02b.pck/ext1_en05.webp"
+    }
+   },
+   "data/event/e_03.pck": {
+    "ext1_en04.webp": {
+     "base": "6cf16b953dd1b41768591627796ffb7f10cf67fb",
+     "kind": "full",
+     "file": "data_en/data/event/e_03.pck/ext1_en04.webp"
+    }
+   },
+   "data/event/e_04.pck": {
+    "ext1_en07.webp": {
+     "base": "1818b3b98394e5ff57f00a55400c0b495c3ccee8",
+     "kind": "full",
+     "file": "data_en/data/event/e_04.pck/ext1_en07.webp"
+    }
+   },
+   "data/event/e_05.pck": {
+    "ext1_en08.webp": {
+     "base": "19fd9bef4297f29b51ad7dd3fdee5c863f57eb76",
+     "kind": "full",
+     "file": "data_en/data/event/e_05.pck/ext1_en08.webp"
+    }
+   },
+   "data/event/e_06.pck": {
+    "ext1_en09.webp": {
+     "base": "110cedf1b44c14d8557bbca40200616fdf4285bf",
+     "kind": "full",
+     "file": "data_en/data/event/e_06.pck/ext1_en09.webp"
+    }
+   },
+   "data/event/e_07.pck": {
+    "ext1_en10.webp": {
+     "base": "c7808f10b94619c79685d50027155735919d0fe8",
+     "kind": "full",
+     "file": "data_en/data/event/e_07.pck/ext1_en10.webp"
+    }
+   },
+   "data/event/e_08.pck": {
+    "ext1_en11.webp": {
+     "base": "99215496d912199e93a2a97d314d1124d9e536f7",
+     "kind": "full",
+     "file": "data_en/data/event/e_08.pck/ext1_en11.webp"
+    }
+   },
+   "data/event/e_09.pck": {
+    "ext1_en12.webp": {
+     "base": "00bddfe2629aeecb208c2b1a62a0b5068489765b",
+     "kind": "full",
+     "file": "data_en/data/event/e_09.pck/ext1_en12.webp"
+    }
+   },
+   "data/event/e_10.pck": {
+    "ext1_en13.webp": {
+     "base": "402046fde8df532b1770017dff5d65d7ac92c273",
+     "kind": "full",
+     "file": "data_en/data/event/e_10.pck/ext1_en13.webp"
+    }
+   },
+   "data/event/e_11.pck": {
+    "ext1_en14.webp": {
+     "base": "1202b8e25209639cb16c11de109db19ca02bbc23",
+     "kind": "full",
+     "file": "data_en/data/event/e_11.pck/ext1_en14.webp"
+    }
+   },
+   "data/event/e_12.pck": {
+    "ext1_en15.webp": {
+     "base": "13f286d5caf2c9667dec2b427c129b8a6870cca1",
+     "kind": "full",
+     "file": "data_en/data/event/e_12.pck/ext1_en15.webp"
+    }
+   },
+   "data/event/e_13.pck": {
+    "ext1_en16.webp": {
+     "base": "a4ce8fe3effa46f35b00034d744dc4d078fb04bb",
+     "kind": "full",
+     "file": "data_en/data/event/e_13.pck/ext1_en16.webp"
+    }
+   },
+   "data/event/e_14.pck": {
+    "ext1_en17.webp": {
+     "base": "b87a5199321a00f36af3d123858586fece0be2ed",
+     "kind": "full",
+     "file": "data_en/data/event/e_14.pck/ext1_en17.webp"
+    }
+   },
+   "data/event/e_15.pck": {
+    "ext1_en18.webp": {
+     "base": "9045e4f6c48c0f140d7f8900109685b90c20cdd5",
+     "kind": "full",
+     "file": "data_en/data/event/e_15.pck/ext1_en18.webp"
+    }
+   },
+   "data/event/e_16.pck": {
+    "ext1_en19.webp": {
+     "base": "4780bbd035028cda38543b1733e06ab7f0ae3b43",
+     "kind": "full",
+     "file": "data_en/data/event/e_16.pck/ext1_en19.webp"
+    }
+   },
+   "data/event/e_17.pck": {
+    "ext1_en20.webp": {
+     "base": "a14015a8182fe8019f8c04f718116f4964ae61b9",
+     "kind": "full",
+     "file": "data_en/data/event/e_17.pck/ext1_en20.webp"
+    }
+   },
+   "data/event/e_18.pck": {
+    "ext1_en21.webp": {
+     "base": "987d87979cffc04f1c40f28929e64a4109a446fc",
+     "kind": "full",
+     "file": "data_en/data/event/e_18.pck/ext1_en21.webp"
+    }
+   },
+   "data/event/e_19_1.pck": {
+    "ext1_en22.webp": {
+     "base": "31388c55c11b97fac4ebe425c3da9fbf8b0e5fca",
+     "kind": "full",
+     "file": "data_en/data/event/e_19_1.pck/ext1_en22.webp"
+    }
+   },
+   "data/event/e_19_2.pck": {
+    "ext1_en23.webp": {
+     "base": "0f9c8f40e69b0763d384147293a81b51e58fc475",
+     "kind": "full",
+     "file": "data_en/data/event/e_19_2.pck/ext1_en23.webp"
+    }
+   },
+   "data/event/e_20.pck": {
+    "ext1_en24.webp": {
+     "base": "216bb966442eeb046831b726683b6de4ed129ef0",
+     "kind": "full",
+     "file": "data_en/data/event/e_20.pck/ext1_en24.webp"
+    }
+   },
+   "data/event/e_21.pck": {
+    "ext1_en25.webp": {
+     "base": "5a44294373748b19cf85f8759c81ec80131635db",
+     "kind": "full",
+     "file": "data_en/data/event/e_21.pck/ext1_en25.webp"
+    }
+   },
+   "data/event/e_22_1.pck": {
+    "ext1_en26.webp": {
+     "base": "c447178778e891c7d7f5a96ff0a0a61c35c32782",
+     "kind": "full",
+     "file": "data_en/data/event/e_22_1.pck/ext1_en26.webp"
+    }
+   },
+   "data/event/e_22_2.pck": {
+    "ext1_en27.webp": {
+     "base": "04cd0d64719eb6f4ac864fdbafb40ed73886b408",
+     "kind": "full",
+     "file": "data_en/data/event/e_22_2.pck/ext1_en27.webp"
+    }
+   },
+   "data/event/e_23.pck": {
+    "ext1_en32.webp": {
+     "base": "92f1e46eab546227e47dfe73e398ff3c9275af05",
+     "kind": "full",
+     "file": "data_en/data/event/e_23.pck/ext1_en32.webp"
+    }
+   },
+   "data/event/e_23a.pck": {
+    "ext1_en28.webp": {
+     "base": "92f1e46eab546227e47dfe73e398ff3c9275af05",
+     "kind": "full",
+     "file": "data_en/data/event/e_23a.pck/ext1_en28.webp"
+    }
+   },
+   "data/event/e_23b.pck": {
+    "ext1_en29.webp": {
+     "base": "92f1e46eab546227e47dfe73e398ff3c9275af05",
+     "kind": "full",
+     "file": "data_en/data/event/e_23b.pck/ext1_en29.webp"
+    }
+   },
+   "data/event/e_23c.pck": {
+    "ext1_en30.webp": {
+     "base": "92f1e46eab546227e47dfe73e398ff3c9275af05",
+     "kind": "full",
+     "file": "data_en/data/event/e_23c.pck/ext1_en30.webp"
+    }
+   },
+   "data/event/e_23d.pck": {
+    "ext1_en31.webp": {
+     "base": "92f1e46eab546227e47dfe73e398ff3c9275af05",
+     "kind": "full",
+     "file": "data_en/data/event/e_23d.pck/ext1_en31.webp"
+    }
+   },
+   "data/event/e_24.pck": {
+    "ext1_en33.webp": {
+     "base": "ba26d3d6ed39ea593253e83b4ac29751b7e4c012",
+     "kind": "full",
+     "file": "data_en/data/event/e_24.pck/ext1_en33.webp"
+    }
+   },
+   "data/event/e_25.pck": {
+    "ext1_en34.webp": {
+     "base": "e6bbbaaed2b531135325dcc37a4895675f07dcaf",
+     "kind": "full",
+     "file": "data_en/data/event/e_25.pck/ext1_en34.webp"
+    }
+   },
+   "data/event/e_26.pck": {
+    "ext1_en35.webp": {
+     "base": "3497204938b4d32052d7df25f0d60b3f331df1ca",
+     "kind": "full",
+     "file": "data_en/data/event/e_26.pck/ext1_en35.webp"
+    }
+   },
+   "data/event/e_27.pck": {
+    "ext1_en36.webp": {
+     "base": "7d45694cf1f6911003516c33aa03a2f6381488bb",
+     "kind": "full",
+     "file": "data_en/data/event/e_27.pck/ext1_en36.webp"
+    }
+   },
+   "data/event/e_27_ns.pck": {
+    "ext1_en36.webp": {
+     "base": "7d45694cf1f6911003516c33aa03a2f6381488bb",
+     "kind": "full",
+     "file": "data_en/data/event/e_27_ns.pck/ext1_en36.webp"
+    }
+   },
+   "data/event/e_28.pck": {
+    "ext1_en37.webp": {
+     "base": "895431fbdecd951921205ff351718769f2a36552",
+     "kind": "full",
+     "file": "data_en/data/event/e_28.pck/ext1_en37.webp"
+    }
+   },
+   "data/event/e_29.pck": {
+    "ext1_en38.webp": {
+     "base": "67b73f8c2ccf3752108ef9152e4a8f5b398f2e3d",
+     "kind": "full",
+     "file": "data_en/data/event/e_29.pck/ext1_en38.webp"
+    }
+   },
+   "data/event/e_psp_01.pck": {
+    "ext1_en_psp01.webp": {
+     "base": "cff777acfe69066efffccc043800bf7bef2726f2",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_01.pck/ext1_en_psp01.webp"
+    }
+   },
+   "data/event/e_psp_02.pck": {
+    "ext1_en_psp02.webp": {
+     "base": "d7ecf34f66f175e20e19c88963853a8b5538f358",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_02.pck/ext1_en_psp02.webp"
+    }
+   },
+   "data/event/e_psp_03.pck": {
+    "ext1_en_psp03.webp": {
+     "base": "f95efde5d9b9878881372e45326a002625930f68",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_03.pck/ext1_en_psp03.webp"
+    }
+   },
+   "data/event/e_psp_04.pck": {
+    "ext1_en_psp04.webp": {
+     "base": "f95efde5d9b9878881372e45326a002625930f68",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_04.pck/ext1_en_psp04.webp"
+    }
+   },
+   "data/event/e_psp_05.pck": {
+    "ext1_en_psp05.webp": {
+     "base": "f95efde5d9b9878881372e45326a002625930f68",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_05.pck/ext1_en_psp05.webp"
+    }
+   },
+   "data/event/e_psp_06.pck": {
+    "ext1_en_psp06.webp": {
+     "base": "f95efde5d9b9878881372e45326a002625930f68",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_06.pck/ext1_en_psp06.webp"
+    }
+   },
+   "data/event/e_psp_07.pck": {
+    "ext1_en_psp07.webp": {
+     "base": "b0e76021a93e2bbbb4745c1dca6617bb723f45b9",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_07.pck/ext1_en_psp07.webp"
+    }
+   },
+   "data/event/e_psp_08.pck": {
+    "ext1_en_psp08.webp": {
+     "base": "7b4d152a58916b2ad3e15e060a7023e35e48cf97",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_08.pck/ext1_en_psp08.webp"
+    }
+   },
+   "data/event/e_psp_09.pck": {
+    "ext1_en_psp09.webp": {
+     "base": "2b3e3b997c38712177ab449c3c9a81e7302f8302",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_09.pck/ext1_en_psp09.webp"
+    }
+   },
+   "data/event/e_psp_10.pck": {
+    "ext1_en_psp10.webp": {
+     "base": "036b43a071e65b90affcff3b4281fa2cf195df3d",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_10.pck/ext1_en_psp10.webp"
+    }
+   },
+   "data/event/e_psp_11.pck": {
+    "ext1_en_psp11.webp": {
+     "base": "2a03a9c595572229b4396b8501a3af92bdc2e7e9",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_11.pck/ext1_en_psp11.webp"
+    }
+   },
+   "data/event/e_psp_12.pck": {
+    "ext1_en_psp12.webp": {
+     "base": "46fbd5ed4139ce5cd74a6866f572ea88f417b243",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_12.pck/ext1_en_psp12.webp"
+    }
+   },
+   "data/event/e_psp_13.pck": {
+    "ext1_en_psp13.webp": {
+     "base": "80c8c75f49de2a066bc4c506cacc0e28843f30db",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_13.pck/ext1_en_psp13.webp"
+    }
+   },
+   "data/event/e_psp_14.pck": {
+    "ext1_en_psp14.webp": {
+     "base": "7edc42db66252d298315de2b1bdd396a611cdd54",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_14.pck/ext1_en_psp14.webp"
+    }
+   },
+   "data/event/e_psp_15.pck": {
+    "ext1_en_psp15.webp": {
+     "base": "f2ed0a5aca09f78b93d28cd3c18ce7fa87293fff",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_15.pck/ext1_en_psp15.webp"
+    }
+   },
+   "data/event/e_psp_16.pck": {
+    "ext1_en_psp16.webp": {
+     "base": "04a75e8a9a4740c5cfa015b857257c17c2404300",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_16.pck/ext1_en_psp16.webp"
+    }
+   },
+   "data/event/e_psp_17.pck": {
+    "ext1_en_psp17.webp": {
+     "base": "4fe588ef8a7f497d418b60c768523ec86d607bdd",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_17.pck/ext1_en_psp17.webp"
+    }
+   },
+   "data/event/e_psp_18.pck": {
+    "ext1_en_psp18.webp": {
+     "base": "43561030f8ffdebb249f956cfc384b5f06fde5e1",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_18.pck/ext1_en_psp18.webp"
+    }
+   },
+   "data/event/e_psp_19.pck": {
+    "ext1_en_psp19.webp": {
+     "base": "7bdef8e7c1be389063b42885083f47f8567b7573",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_19.pck/ext1_en_psp19.webp"
+    }
+   },
+   "data/event/e_psp_20.pck": {
+    "ext1_en_psp20.webp": {
+     "base": "aae44000513c335c11673afa26a51ef9b7e132a4",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_20.pck/ext1_en_psp20.webp"
+    }
+   },
+   "data/event/e_psp_21.pck": {
+    "ext1_en_psp21.webp": {
+     "base": "b6996a0f47c2363df020bc4fbdf316ed3ad20187",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_21.pck/ext1_en_psp21.webp"
+    }
+   },
+   "data/event/e_psp_22.pck": {
+    "ext1_en_psp22.webp": {
+     "base": "59f7460c35d14674fd2e026770c6f12e0dc18f82",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_22.pck/ext1_en_psp22.webp"
+    }
+   },
+   "data/event/e_psp_23.pck": {
+    "ext1_en_psp23.webp": {
+     "base": "a22374fbb3e4e35fca34f3d35a567202a067adc2",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_23.pck/ext1_en_psp23.webp"
+    }
+   },
+   "data/event/e_psp_24.pck": {
+    "ext1_en_psp24.webp": {
+     "base": "abad4a5a947f5c98c3729ee044d6efc61c1963bc",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_24.pck/ext1_en_psp24.webp"
+    }
+   },
+   "data/event/e_psp_25.pck": {
+    "ext1_en_psp25.webp": {
+     "base": "e030be1bbd26d5703ef1828a96960f272d1cbe0e",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_25.pck/ext1_en_psp25.webp"
+    }
+   },
+   "data/event/e_psp_26.pck": {
+    "ext1_en_psp26.webp": {
+     "base": "2a6decfa1b2d899bfacc3ed6e04dbdbda50fda67",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_26.pck/ext1_en_psp26.webp"
+    }
+   },
+   "data/event/e_psp_27.pck": {
+    "ext1_en_psp27.webp": {
+     "base": "8b05bfef22bfc7b2da3d60b0bf5ca4b0ff7d8fd0",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_27.pck/ext1_en_psp27.webp"
+    }
+   },
+   "data/event/e_psp_28.pck": {
+    "ext1_en_psp28.webp": {
+     "base": "860dd553c311c96944ccf36f4573231278a5735a",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_28.pck/ext1_en_psp28.webp"
+    }
+   },
+   "data/event/e_psp_29.pck": {
+    "ext1_en_psp29.webp": {
+     "base": "5878569d90d485091d094a7f7d393de6b63f670e",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_29.pck/ext1_en_psp29.webp"
+    }
+   },
+   "data/event/e_psp_30.pck": {
+    "ext1_en_psp30.webp": {
+     "base": "bec7b4a224afe56814fd7b686cc0083ab5de8215",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_30.pck/ext1_en_psp30.webp"
+    }
+   },
+   "data/event/e_psp_31.pck": {
+    "ext1_en_psp31.webp": {
+     "base": "36dd33576686583d914bd56bc74a0d553366cb26",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_31.pck/ext1_en_psp31.webp"
+    }
+   },
+   "data/event/e_psp_32.pck": {
+    "ext1_en_psp32.webp": {
+     "base": "de51b04eb699f831cf026a3d5779f5b1785589ee",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_32.pck/ext1_en_psp32.webp"
+    }
+   },
+   "data/event/e_psp_33.pck": {
+    "ext1_en_psp33.webp": {
+     "base": "9e7890c9a5735dfa8f156738b7f6cc3946738443",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_33.pck/ext1_en_psp33.webp"
+    }
+   },
+   "data/event/e_psp_34.pck": {
+    "ext1_en_psp34.webp": {
+     "base": "842d2605e08eae9594f79bc1a872e7468370ca90",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_34.pck/ext1_en_psp34.webp"
+    }
+   },
+   "data/event/e_psp_35.pck": {
+    "ext1_en_psp35.webp": {
+     "base": "f8cf9089d1e55a8cc5eda1a0dedb50b4b13ea560",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_35.pck/ext1_en_psp35.webp"
+    }
+   },
+   "data/event/e_psp_36.pck": {
+    "ext1_en_psp36.webp": {
+     "base": "f8cf9089d1e55a8cc5eda1a0dedb50b4b13ea560",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_36.pck/ext1_en_psp36.webp"
+    }
+   },
+   "data/event/e_psp_37.pck": {
+    "ext1_en_psp37.webp": {
+     "base": "f8cf9089d1e55a8cc5eda1a0dedb50b4b13ea560",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_37.pck/ext1_en_psp37.webp"
+    }
+   },
+   "data/event/e_psp_38.pck": {
+    "ext1_en_psp38.webp": {
+     "base": "f8cf9089d1e55a8cc5eda1a0dedb50b4b13ea560",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_38.pck/ext1_en_psp38.webp"
+    }
+   },
+   "data/event/e_psp_39.pck": {
+    "ext1_en_psp39.webp": {
+     "base": "8e2631dfa874070a44e124a7dddaeced8e21841d",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_39.pck/ext1_en_psp39.webp"
+    }
+   },
+   "data/event/e_psp_40.pck": {
+    "ext1_en_psp40.webp": {
+     "base": "d7371549e46dc099fb89fa3bc45e62bdd80349de",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_40.pck/ext1_en_psp40.webp"
+    }
+   },
+   "data/event/e_psp_41.pck": {
+    "ext1_en_psp41.webp": {
+     "base": "90dd893cdbe66dccfbb146832057be4e5dbd7ec2",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_41.pck/ext1_en_psp41.webp"
+    }
+   },
+   "data/event/e_psp_42.pck": {
+    "ext1_en_psp42.webp": {
+     "base": "1ae0f6f57b353c6abace1c6bf999513bdea9eaaf",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_42.pck/ext1_en_psp42.webp"
+    }
+   },
+   "data/event/e_psp_43.pck": {
+    "ext1_en_psp43.webp": {
+     "base": "f427bca5726e17178d8a047386054f8951b5c90c",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_43.pck/ext1_en_psp43.webp"
+    }
+   },
+   "data/event/e_psp_44.pck": {
+    "ext1_en_psp44.webp": {
+     "base": "34e1048d6dc98b8412db198671a727ba97eaed5e",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_44.pck/ext1_en_psp44.webp"
+    }
+   },
+   "data/event/e_psp_45.pck": {
+    "ext1_en_psp45.webp": {
+     "base": "70384ab63d41607b6b798d58e5e24f48e666d217",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_45.pck/ext1_en_psp45.webp"
+    }
+   },
+   "data/event/e_psp_46.pck": {
+    "ext1_en_psp46.webp": {
+     "base": "2342ef215b9fe8a0b55493193adaf2080f12e139",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_46.pck/ext1_en_psp46.webp"
+    }
+   },
+   "data/event/e_psp_47.pck": {
+    "ext1_en_psp47.webp": {
+     "base": "41bc2f658c9251108257e998a91b7def469d00be",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_47.pck/ext1_en_psp47.webp"
+    }
+   },
+   "data/event/e_psp_48.pck": {
+    "ext1_en_psp48.webp": {
+     "base": "3daf4723f0d37d15052e95b91edc4ed8cb3d26a5",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_48.pck/ext1_en_psp48.webp"
+    }
+   },
+   "data/event/e_psp_49.pck": {
+    "ext1_en_psp49.webp": {
+     "base": "4744732ebae85dd633dfd2726a67dc7c03db575c",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_49.pck/ext1_en_psp49.webp"
+    }
+   },
+   "data/event/e_psp_50.pck": {
+    "ext1_en_psp50.webp": {
+     "base": "e9462ef6f4d22b46a635db6674a867594d182fd7",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_50.pck/ext1_en_psp50.webp"
+    }
+   },
+   "data/event/e_psp_se1.pck": {
+    "ext01_eName_psp_se1.webp": {
+     "base": "0d1bd803e4c80643a6c3f8b111b9452471863a2f",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_se1.pck/ext01_eName_psp_se1.webp"
+    }
+   },
+   "data/event/e_psp_se2.pck": {
+    "ext01_eName_psp_se2.webp": {
+     "base": "0d1bd803e4c80643a6c3f8b111b9452471863a2f",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_se2.pck/ext01_eName_psp_se2.webp"
+    }
+   },
+   "data/event/e_psp_se3.pck": {
+    "ext01_eName_psp_se3.webp": {
+     "base": "cde26a58b937e6262a37384d491f8b517b5fa24c",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_se3.pck/ext01_eName_psp_se3.webp"
+    }
+   },
+   "data/event/e_psp_se4.pck": {
+    "ext01_eName_psp_se4.webp": {
+     "base": "c66dd120c917dc9a5a2cf34892e1fe2144df5cd1",
+     "kind": "full",
+     "file": "data_en/data/event/e_psp_se4.pck/ext01_eName_psp_se4.webp"
+    }
+   },
+   "data/event/r_title.pck": {
+    "ext1_en00.webp": {
+     "base": "19d06c593c2f9fddd1d997d697ab633c23f3c0f8",
+     "kind": "full",
+     "file": "data_en/data/event/r_title.pck/ext1_en00.webp"
+    }
+   },
+   "data/event/wakeup.pck": {
+    "ext1_en06.webp": {
+     "base": "af3d913caab21ec16c2fd65d1324090e848110d1",
+     "kind": "full",
+     "file": "data_en/data/event/wakeup.pck/ext1_en06.webp"
+    }
+   },
+   "data/event/wmapParts.pck": {
+    "miniName0.webp": {
+     "base": "f4ee313a76eb154f5b0ed6e7fa013ba9ab3678a0",
+     "kind": "full",
+     "file": "data_en/data/event/wmapParts.pck/miniName0.webp"
+    },
+    "miniName1.webp": {
+     "base": "4e17bee1ed35bc2af127537c424daae4cc110d59",
+     "kind": "full",
+     "file": "data_en/data/event/wmapParts.pck/miniName1.webp"
+    },
+    "miniName2.webp": {
+     "base": "7316bf23957025f1cc0e956ccbf4132e40843edf",
+     "kind": "full",
+     "file": "data_en/data/event/wmapParts.pck/miniName2.webp"
+    },
+    "miniName3.webp": {
+     "base": "bae562e9cfd7ebd454fe840585d1b5169bb36512",
+     "kind": "full",
+     "file": "data_en/data/event/wmapParts.pck/miniName3.webp"
+    },
+    "miniName4.webp": {
+     "base": "cf8fe3ab1add2202478b3c81e04a25d875b89383",
+     "kind": "full",
+     "file": "data_en/data/event/wmapParts.pck/miniName4.webp"
+    },
+    "miniName5.webp": {
+     "base": "36bf8928bc6a857036b33db1c4346a0f20ac97aa",
+     "kind": "full",
+     "file": "data_en/data/event/wmapParts.pck/miniName5.webp"
+    },
+    "miniName6.webp": {
+     "base": "88ff77bfe6ee9d7d3b328ae16c81cd14f92b646f",
+     "kind": "full",
+     "file": "data_en/data/event/wmapParts.pck/miniName6.webp"
+    },
+    "miniName7.webp": {
+     "base": "278bfec7a73fd031e55fef6b1249dbcb64061463",
+     "kind": "full",
+     "file": "data_en/data/event/wmapParts.pck/miniName7.webp"
+    },
+    "miniName8.webp": {
+     "base": "ae91824bdb2eb69fbdb3035fd26fa2a7cf49b33d",
+     "kind": "full",
+     "file": "data_en/data/event/wmapParts.pck/miniName8.webp"
+    }
+   }
+  }
+ }
+}

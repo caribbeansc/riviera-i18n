@@ -1,0 +1,121 @@
+{"k": "269b0f92e460f3dd", "t": ["Cancel"]}
+{"k": "8238716081cef60e", "t": ["Entendido, hay que tocar la pantalla."]}
+{"k": "5426ec1059b84661", "t": ["Toqué la pantalla, pero…"]}
+{"k": "08e6e61a0f71b922", "t": ["Hay que tocar el Trigger directamente."]}
+{"k": "2e737b323e420244", "t": ["Ah, cierto. Perdón.", "Hay que tocar el Trigger que aparece en pantalla."]}
+{"k": "7a96366ecaa1e434", "t": ["¡Solo toca la pantalla! ¿Entendido?"]}
+{"k": "b05cfe010489b4e9", "t": ["Puedes moverte en Move Mode tocando la pantalla."]}
+{"k": "78abb32e260ecc02", "t": ["Toca la pantalla."]}
+{"k": "e03bfc869e78eda4", "t": ["Esa no es la acción. ¡Fíjate bien en el Trigger!"]}
+{"k": "14606f096e17c4c8", "t": ["Al elegir un objeto, toca la flecha ← de la izquierda."]}
+{"k": "f330eae114fbebf3", "t": ["Hay que tocar la flecha ←."]}
+{"k": "76f81e6f410da1e6", "t": ["Can't discard…"], "cap": 1700}
+{"k": "64857ba28093d6a2", "t": ["Collected:"], "cap": 1700}
+{"k": "20ff25d37839fa1f", "t": ["Toca el botón ATTACK o MAGIC para cambiar de formación. Revisa la información de los enemigos y elige la formación."], "cap": 1700}
+{"k": "4d000c827ca493f5", "t": ["Toca los iconos de personaje de la izquierda para elegir quién saldrá a la batalla. Cuando hayas elegido a 3, toca el icono de confirmar, abajo a la derecha."], "cap": 1700}
+{"k": "0b174656936c3218", "t": ["Elige la tecla que quieras cambiar"], "cap": 1700}
+{"k": "646886ac8880d5d2", "t": ["La distribución puede diferir de la de tu teclado."], "cap": 1700}
+{"k": "d5aac98541e57b3b", "t": ["Reset to default"], "cap": 1700}
+{"k": "e6158726482baa9a", "t": ["Show controls ON"], "cap": 1700}
+{"k": "ed90908808d20edc", "t": ["¿Restablecer la distribución de teclas?"], "cap": 1700}
+{"k": "f6e90ab1c3402428", "t": ["Pulsa la tecla que quieras cambiar"], "cap": 1700}
+{"k": "5e767559d7197328", "t": ["Pulsa de nuevo la misma tecla para cambiarla"], "cap": 1700}
+{"k": "2cace5fc711b10b8", "t": ["Back, Cancel"], "cap": 1700}
+{"k": "e857542925012d13", "t": ["Confirm, advance message"], "cap": 1700}
+{"k": "f91d5b8b38b16f23", "t": ["Cursor select"], "cap": 1700}
+{"k": "4ba1f47e0e76b9e8", "t": ["Toggle display"], "cap": 1700}
+{"k": "fcaba402aa668f03", "t": ["Toggle display, change speed"], "cap": 1700}
+{"k": "f948c781eff8f36e", "t": ["Toggle display, fast-forward"], "cap": 1700}
+{"k": "daee5c1498f2ce9c", "t": ["Toggle display, auto fast-forward"], "cap": 1700}
+{"k": "911dcc66fbd63304", "t": ["Soft reset (LB+RB+Menu button)"], "cap": 1700}
+{"k": "3696e51427491735", "t": ["Show manual"], "cap": 1700}
+{"k": "8f99b5f7c588405f", "t": ["Menu"], "cap": 1700}
+{"k": "8171db471082e84d", "t": ["Battle Info"], "cap": 1700}
+{"k": "0fc96742d43c3254", "t": ["Sub cursor (EX content)"], "cap": 1700}
+{"k": "c08743aeb792b2e1", "t": ["Ein      Rie Kugimiya"], "cap": 1000}
+{"k": "e55e144e8ee6cac4", "t": ["Ledah   Masakazu Morita"], "cap": 1000}
+{"k": "de3cb9dbfb247ed3", "t": ["Rose    Rika Komatsu"], "cap": 1000}
+{"k": "f8ff70dde252b591", "t": ["Cierra   Yuko Gotoh"], "cap": 1000}
+{"k": "2fb1a29a92a7c605", "t": ["Serene  Ai Nonaka"], "cap": 1000}
+{"k": "e1ce56e816e13266", "t": ["Lina     Hiromi Konno"], "cap": 1000}
+{"k": "1040d69f39217c50", "t": ["Fia      Natsumi Yanase"], "cap": 1000}
+{"k": "f6bb228ae8495bf1", "t": ["Malice   Mariko Suzuki"], "cap": 1000}
+{"k": "a39b424579d135fa", "t": ["Hector  Noriaki Sugiyama"], "cap": 1000}
+{"k": "c4f6d2417258488c", "t": ["Ursula   Yuka Shioyama"], "cap": 1000}
+{"k": "f0a1f8d6ba25d5ac", "t": ["Randy   Kouji Haramaki"], "cap": 1000}
+{"k": "2915afa72ddf9699", "t": ["Lindwurm Yugo Takahashi"], "cap": 1000}
+{"k": "f4f88029c88833f9", "t": ["Sage    Ai Bandoh"], "cap": 1000}
+{"k": "f2e6689d07144d48", "t": ["Fool     Masumi Kageyama"], "cap": 1000}
+{"k": "090a905395787923", "t": ["Graham Kohei Fukuhara"], "cap": 1000}
+{"k": "1cee1981a4ffeb36", "t": ["Ladie    Tomoko Fujino"], "cap": 1000}
+{"k": "9c2c386e64030547", "t": ["Claude  Ryohei Nakao"], "cap": 1000}
+{"k": "4a8625333c2a09df", "t": ["NoNo    Yui Kano"], "cap": 1000}
+{"k": "4b2306a89ec177df", "t": ["Rebecca Natsuki Yoshihara"], "cap": 1000}
+{"k": "6592d4323de005cb", "t": ["Mylene  Miyuki Kawasho"], "cap": 1000}
+{"k": "cb22d7ef3d4ee288", "t": ["Inflige daño igual al %s% de HP"], "cap": 1700}
+{"k": "f363a34546758c25", "t": ["Golpes variables (%s~%s golpes)"], "cap": 1700}
+{"k": "4e64e15f276ca0fa", "t": ["%s% de que el enemigo se esfume"], "cap": 1700}
+{"k": "75aa09fd3aae99b1", "t": ["Causa el estado STONE"], "cap": 1700}
+{"k": "8ce63d19f2aca946", "t": ["Causa el estado SLEEP"], "cap": 1700}
+{"k": "bb56363caa3b0ad6", "t": ["Causa el estado HEAT"], "cap": 1700}
+{"k": "90f7ac281125698d", "t": ["Causa el estado FREEZE"], "cap": 1700}
+{"k": "a3941e08a9c8e23f", "t": ["Causa el estado DAZZLE"], "cap": 1700}
+{"k": "96962e9dd13b593c", "t": ["Causa el estado POISON"], "cap": 1700}
+{"k": "78334e2ac5607d2c", "t": ["Causa el estado PURIFY"], "cap": 1700}
+{"k": "b6d9372ad3543e65", "t": ["Sube STR en %s por %s turnos"], "cap": 1700}
+{"k": "df3170fab91c1a52", "t": ["Sube MGC en %s por %s turnos"], "cap": 1700}
+{"k": "93ce9d551e2a6db5", "t": ["Sube AGL en %s por %s turnos"], "cap": 1700}
+{"k": "2dd8184ee9842906", "t": ["Sube VIT en %s% por %s turnos"], "cap": 1700}
+{"k": "410d588320369248", "t": ["Sube GRD en %s por %s turnos"], "cap": 1700}
+{"k": "55d812a208aabc88", "t": ["Sube REC en %s por %s turnos"], "cap": 1700}
+{"k": "4d08dbc52f6b71d3", "t": ["Sube PHY RES en %s por %s turnos"], "cap": 1700}
+{"k": "cedbc0fd316e1f96", "t": ["Sube FIRE RES en %s por %s turnos"], "cap": 1700}
+{"k": "bbf2c433cae08401", "t": ["Sube ICE RES en %s por %s turnos"], "cap": 1700}
+{"k": "f3f030e587014f61", "t": ["Sube LIT RES en %s por %s turnos"], "cap": 1700}
+{"k": "27180713ded7fdb0", "t": ["Sube DRK RES en %s por %s turnos"], "cap": 1700}
+{"k": "237fb452082f722b", "t": ["ACC al 100% por %s turnos"], "cap": 1700}
+{"k": "1326c43ac1189d72", "t": ["Sube la RES de la última propiedad en %s"], "cap": 1700}
+{"k": "5ce49902f2e3bde2", "t": ["Recupera %s% del MAX HP"], "cap": 1700}
+{"k": "08a13e074bba8edc", "t": ["Daño fijo de %s"], "cap": 1700}
+{"k": "b11a302f63ca65d0", "t": ["Reduce WAIT en %s"], "cap": 1700}
+{"k": "d834ef9c332aed87", "t": ["Aumenta WAIT en %s"], "cap": 1700}
+{"k": "cfeb09c3a775d5a9", "t": ["Llena %s nivel(es) de Over Drive"], "cap": 1700}
+{"k": "f9d1fd7da256bfa2", "t": ["Reduce el medidor de Rage en %s%"], "cap": 1700}
+{"k": "111c7bf99e86ce8e", "t": ["Sube HLY RES en %s"], "cap": 1700}
+{"k": "ab7ca68634608c1c", "t": ["Daño fijo de unos %s~%s"], "cap": 1700}
+{"k": "476de7a95b828a84", "t": ["3-Start"], "cap": 400}
+{"k": "8e66fa71e99cc39b", "t": ["4-Start"], "cap": 400}
+{"k": "c8193b0cb789e1eb", "t": ["5-Start"], "cap": 400}
+{"k": "b46977be9e38058a", "t": ["2-Start"], "cap": 400}
+{"k": "ca6cd123e4c20f9d", "t": ["6-Start"], "cap": 400}
+{"k": "d79756ed73e9eb85", "t": ["7-Start"], "cap": 400}
+{"k": "a6be782da80dc80b", "t": ["Where Wisdom Lies"], "cap": 900}
+{"k": "2e0f4959d6bf61ba", "t": ["Darkness I"], "cap": 900}
+{"k": "47fb4c766d9b0316", "t": ["Darkness II"], "cap": 900}
+{"k": "53896dcb6d257d5b", "t": ["Puedes guardar y cargar copias de tus datos en la nube."]}
+{"k": "84937403287b7f1d", "t": ["Sin soporte para otros sistemas."], "cap": 1500}
+{"k": "b8bf8707d15a34a8", "t": ["Processing…"]}
+{"k": "62a6399670c835a9", "t": ["No hay datos de copia de seguridad."], "lit": true}
+{"k": "91e3d724ad731e70", "t": ["Para usar los datos en la nube,\nse necesita permiso de lectura y escritura del almacenamiento."], "lit": true}
+{"k": "30b787f98d3af640", "t": ["No se pudo crear la copia de seguridad.\nInténtalo de nuevo con mejor conexión."], "lit": true}
+{"k": "dac26523bcbcfd64", "t": ["¿Crear una copia de seguridad en el servidor en la nube?\n(Si ya existe una, se sobrescribirá)"], "lit": true}
+{"k": "d24e24ea403aafa8", "t": ["No hay datos para crear una copia de seguridad."], "lit": true}
+{"k": "8649cd89f21abdbc", "t": ["No se pudieron obtener los datos de la nube.\nInténtalo de nuevo con mejor conexión."], "lit": true}
+{"k": "d8b04354ecd3fb6c", "t": ["Los datos de la copia de seguridad están dañados."], "lit": true}
+{"k": "e2aa194222d5550a", "t": ["La copia de seguridad no es compatible."], "lit": true}
+{"k": "ace7ba55708607e6", "t": ["Copia de seguridad creada en el servidor en la nube."], "lit": true}
+{"k": "f258f7a74c201a68", "t": ["Datos cargados desde la copia de seguridad."], "lit": true}
+{"k": "c831d83ce5546d5a", "t": ["¿Cargar los datos de la copia de seguridad?"], "lit": true}
+{"k": "9e3d4d3fcd90067e", "t": ["Ah, por cierto…", "Puedes consultarlo en MENU, arriba a la derecha de la pantalla."]}
+{"k": "256a0545e70509cd", "t": ["Ya veo, es MENU.", "Lo recordaré."]}
+{"k": "6c99d210fbaa0239", "t": ["Por ahora, intenta tocar la pantalla en el campo."]}
+{"k": "3b8cfeb12628084a", "t": ["Cuando quieras mirar alrededor de la sala,", "toca la pantalla para cambiar a Look Mode."]}
+{"k": "31609dbf0a3c2962", "t": ["Toca la pantalla para cambiar de MOVE a LOOK…"]}
+{"k": "4bfa1ccdb62aeec1", "t": ["Aparecerá en el centro de la pantalla.", "Si tocas el Trigger…", "podrás moverte y mirar alrededor de la sala."]}
+{"k": "3418b657f99902e2", "t": ["Así es. ¡Ahora, vamos!", "Toca la pantalla e intenta cambiar a Look Mode."]}
+{"k": "aeaaef250fd8e110", "t": ["Toca la pantalla para volver de LOOK a MOVE."]}
+{"k": "1171cf9a87515ef4", "t": ["Toca MENU para abrir el menú.", "Puedes entrenar eligiendo Practice."]}
+{"k": "4454096006d21d5d", "t": ["Sí, en nuestro turno, elige un objeto y tócalo."]}
+{"k": "cc80529df0cd985e", "t": ["Sí, se puede.", "Toca MENU.", "Luego elige \"Position\" en el menú.", "Tendrás tres opciones. Prueba cada una, por favor."]}
+{"k": "1e33827a21bc3555", "t": ["Look Mode es distinto de Move Mode…", "Cuando aparezca un Trigger, toca el botón que indique."], "force": true}
+{"k": "8a15170feccbea3a", "t": ["En esta pantalla puedes quitar el objeto seleccionado y elegir otro de los que tienes. Toca OK para confirmar el cambio."], "force": true}

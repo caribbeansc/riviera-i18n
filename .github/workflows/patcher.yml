@@ -1,0 +1,212 @@
+name: patcher
+
+# Builds the double-clickable patcher (gui.py) for Windows and macOS on every
+# push to main that changes something that ends up in it, and publishes it as a
+# versioned release. GitHub-hosted runners are free for public repositories.
+#
+# Each executable bundles this repo's code, langs/, the data files of the Android
+# build and a per-platform hactool (ISC-licensed), so a player can turn their own
+# .xci/.nsp backup into a mod with no terminal. Nothing from the game is ever
+# bundled, and every executable is smoke-tested (`--selftest`) before it is
+# published.
+#
+# Windows + Apple Silicon publish the release first; the Intel build is
+# cross-compiled on the same Apple Silicon runner and uploads itself to the
+# release afterwards, best effort.
+
+on:
+  push:
+    branches: [main]
+    # Only rebuild when something that actually ends up in the executable
+    # changes: the code, the bundled translations, or the build itself. A README
+    # typo or any other doc/test edit publishes no new release.
+    paths:
+      - 'gui.py'
+      - 'rpl.py'
+      - 'riviera/**'
+      - 'langs/**'
+      - 'requirements.txt'
+      - '.github/workflows/patcher.yml'
+      - '.github/build-hactool.sh'
+  workflow_dispatch:
+
+concurrency:
+  group: patcher-release
+  cancel-in-progress: true
+
+env:
+  HACTOOL_VER: "1.4.0"
+
+jobs:
+  # Fast, reliable runners. These gate the release.
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            artifact: Riviera-Patcher-Windows
+          - os: macos-latest
+            artifact: Riviera-Patcher-macOS-AppleSilicon
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pyinstaller
+
+      - name: Test before building
+        run: |
+          pip install pytest
+          pytest -m "not game" -q
+
+      - name: Fetch hactool (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $url = "https://github.com/SciresM/hactool/releases/download/$env:HACTOOL_VER/hactool-$env:HACTOOL_VER-win.zip"
+          Invoke-WebRequest $url -OutFile hactool.zip
+          Expand-Archive hactool.zip -DestinationPath hactool_bin
+          New-Item -ItemType Directory -Force tools/bin | Out-Null
+          Copy-Item hactool_bin/hactool.exe tools/bin/hactool.exe
+
+      - name: Build hactool (macOS)
+        if: runner.os == 'macOS'
+        run: bash .github/build-hactool.sh
+
+      - name: Build (Windows)
+        if: runner.os == 'Windows'
+        run: >
+          pyinstaller --noconfirm --clean --onefile --windowed
+          --name Riviera-Patcher
+          --add-data "langs;langs"
+          --add-data "riviera/android/data;riviera/android/data"
+          --add-binary "tools/bin/hactool.exe;tools/bin"
+          gui.py
+
+      - name: Build (macOS)
+        if: runner.os == 'macOS'
+        run: >
+          pyinstaller --noconfirm --clean --onefile --windowed
+          --name "Riviera-Patcher"
+          --add-data "langs:langs"
+          --add-data "riviera/android/data:riviera/android/data"
+          --add-binary "tools/bin/hactool:tools/bin"
+          gui.py
+
+      - name: Smoke-test the executable (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $p = Start-Process -FilePath dist/Riviera-Patcher.exe -ArgumentList '--selftest' -Wait -PassThru
+          if ($p.ExitCode -ne 0) { throw "selftest failed with exit code $($p.ExitCode)" }
+
+      - name: Smoke-test the executable (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          dist/Riviera-Patcher.app/Contents/MacOS/Riviera-Patcher --selftest
+
+      - name: Package (Windows)
+        if: runner.os == 'Windows'
+        run: Move-Item dist/Riviera-Patcher.exe "${{ matrix.artifact }}.exe"
+
+      - name: Package (macOS)
+        if: runner.os == 'macOS'
+        run: ditto -c -k --keepParent "dist/Riviera-Patcher.app" "${{ matrix.artifact }}.zip"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          path: |
+            ${{ matrix.artifact }}.exe
+            ${{ matrix.artifact }}.zip
+          if-no-files-found: error
+
+  # Publish as soon as the fast builds are done: do not wait for Intel. Each build
+  # gets its own dated, commit-pinned tag (v<YYYY.MM.DD>-<sha>) so the version
+  # history stays navigable; --latest keeps /releases/latest pointing at the newest.
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      tag: ${{ steps.publish.outputs.tag }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: out
+          merge-multiple: true
+
+      - name: Publish a versioned release
+        id: publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          day="$(date -u +%Y.%m.%d)"
+          short="${GITHUB_SHA::7}"
+          tag="v${day}-${short}"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          cat > notes.md <<EOT
+          **Version ${tag}**, built from commit ${GITHUB_SHA}.
+
+          Double-clickable patcher for the Spanish translation of Riviera: The Promised Land. Pick your own Switch backup (.xci/.nsp) or the exefs and romfs folders your emulator extracted, pick a language and it builds and installs the mod; the Android tab builds the patched app. Opening a backup needs YOUR OWN prod.keys: the app never contains game files or keys. (The macOS Intel build is added a few minutes after the others.)
+          EOT
+          gh release create "$tag" out/* --repo "$GITHUB_REPOSITORY" --latest \
+            --title "Patcher v${day} (${short})" \
+            --notes-file notes.md
+
+  # macOS Intel: cross-built on the abundant Apple Silicon runner instead of the
+  # scarce Intel one. clang targets x86_64 for the C, and Rosetta runs an x86_64
+  # Python so PyInstaller and the native wheels come out Intel. Runs after the
+  # release exists and uploads itself to it; best effort, so a failure never
+  # touches the published release.
+  intel:
+    needs: release
+    runs-on: macos-latest
+    continue-on-error: true
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Enable Rosetta 2
+        run: softwareupdate --install-rosetta --agree-to-license || true
+
+      - name: Install a universal2 Python
+        run: |
+          curl -fsSL -o python.pkg \
+            https://www.python.org/ftp/python/3.12.8/python-3.12.8-macos11.pkg
+          sudo installer -pkg python.pkg -target /
+
+      - name: Build hactool (x86_64)
+        run: bash .github/build-hactool.sh x86_64
+
+      - name: Build the x86_64 app
+        run: |
+          PY=/Library/Frameworks/Python.framework/Versions/3.12/bin/python3
+          arch -x86_64 "$PY" -m pip install --upgrade pip
+          arch -x86_64 "$PY" -m pip install -r requirements.txt pyinstaller
+          arch -x86_64 "$PY" -m PyInstaller --noconfirm --clean --onefile --windowed \
+            --target-arch x86_64 \
+            --name "Riviera-Patcher" \
+            --add-data "langs:langs" \
+            --add-data "riviera/android/data:riviera/android/data" \
+            --add-binary "tools/bin/hactool:tools/bin" \
+            gui.py
+
+      - name: Smoke-test the executable
+        run: arch -x86_64 dist/Riviera-Patcher.app/Contents/MacOS/Riviera-Patcher --selftest
+
+      - name: Package
+        run: ditto -c -k --keepParent "dist/Riviera-Patcher.app" "Riviera-Patcher-macOS-Intel.zip"
+
+      - name: Upload to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ needs.release.outputs.tag }}" "Riviera-Patcher-macOS-Intel.zip" --repo "$GITHUB_REPOSITORY" --clobber

@@ -1,0 +1,15 @@
+{
+  "code": "es",
+  "name": "Español",
+  "english_name": "Spanish",
+  "mod_name": "Riviera_ES",
+  "scope": "spanglish",
+  "font": { "accents": true },
+  "platforms": {
+    "switch": { "soft": 1.4 },
+    "android": { "soft": 1.12 }
+  },
+  "validation": {
+    "extra_chars": "áéíóúÁÉÍÓÚñÑüÜ¡¿…♪★↑↓←→∩∪⊂⊃×￥・"
+  }
+}

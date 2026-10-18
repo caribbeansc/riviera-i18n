@@ -1,0 +1,980 @@
+{
+ "event/demo1.pck": {
+  "story_00.webp": {
+   "estilo": "story",
+   "texto": "Asgard, el reino de los dioses."
+  },
+  "story_00_1.webp": {
+   "estilo": "story",
+   "texto": "Utgard, el hogar de los demonios."
+  },
+  "story_01.webp": {
+   "estilo": "story",
+   "texto": "Hace mucho tiempo estalló una guerra"
+  },
+  "story_01_1.webp": {
+   "estilo": "story",
+   "texto": "entre dioses y demonios: el Ragnarok…"
+  },
+  "story_02.webp": {
+   "estilo": "story",
+   "texto": "…y el mundo fue arrojado"
+  },
+  "story_02_1.webp": {
+   "estilo": "story",
+   "texto": "a un estado de caos."
+  },
+  "story_03.webp": {
+   "estilo": "story",
+   "texto": "Asgard, invadido por los demonios,"
+  },
+  "story_03_1.webp": {
+   "estilo": "story",
+   "texto": "estaba al borde de la destrucción."
+  },
+  "story_04.webp": {
+   "estilo": "story",
+   "texto": "Desesperados, los dioses rompieron un viejo tabú."
+  },
+  "story_04_1.webp": {
+   "estilo": "story",
+   "texto": "Sacrificando sus propias vidas…"
+  },
+  "story_05.webp": {
+   "estilo": "story",
+   "texto": "…crearon segadores de alas negras"
+  },
+  "story_05_1.webp": {
+   "estilo": "story",
+   "texto": "a los que se conocería como Ángeles de la Muerte."
+  },
+  "story_06.webp": {
+   "estilo": "story",
+   "texto": "Cada uno con un arma divina llamada «Diviner»,"
+  },
+  "story_06_1.webp": {
+   "estilo": "story",
+   "texto": "los ángeles entraron en batalla…"
+  },
+  "story_07.webp": {
+   "estilo": "story",
+   "texto": "Gracias a su feroz resistencia,"
+  },
+  "story_07_1.webp": {
+   "estilo": "story",
+   "texto": "los ángeles pusieron fin a la guerra."
+  },
+  "story_08.webp": {
+   "estilo": "story",
+   "texto": "Los demonios fueron sellados,"
+  },
+  "story_08_1.webp": {
+   "estilo": "story",
+   "texto": "pero los dioses pronto los seguirían."
+  },
+  "story_09.webp": {
+   "estilo": "story",
+   "texto": "Los dioses dejaron su poder y su saber"
+  },
+  "story_09_1.webp": {
+   "estilo": "story",
+   "texto": "en la isla celestial de Riviera…"
+  },
+  "story_10.webp": {
+   "estilo": "story",
+   "texto": "la Tierra Prometida,"
+  },
+  "story_10_1.webp": {
+   "estilo": "story",
+   "texto": "confiándola a los espíritus hasta su regreso."
+  },
+  "story_11.webp": {
+   "estilo": "story",
+   "texto": "Han pasado 1000 años"
+  },
+  "story_11_1.webp": {
+   "estilo": "story",
+   "texto": "desde el ocaso de los dioses…"
+  },
+  "story_12.webp": {
+   "estilo": "story",
+   "texto": "Las señales del regreso de los demonios"
+  },
+  "story_12_1.webp": {
+   "estilo": "story",
+   "texto": "han llevado el miedo a esta tierra apacible."
+  },
+  "story_13.webp": {
+   "estilo": "story",
+   "texto": "Sin los dioses,"
+  },
+  "story_13_1.webp": {
+   "estilo": "story",
+   "texto": "Asgard no resistiría otra guerra."
+  },
+  "story_14.webp": {
+   "estilo": "story",
+   "texto": "Y así, los 7 Magi, enviados de los dioses,"
+  },
+  "story_14_1.webp": {
+   "estilo": "story",
+   "texto": "tomaron una decisión…"
+  },
+  "story_15.webp": {
+   "estilo": "story",
+   "texto": "Activarán la Retribución,"
+  },
+  "story_15_1.webp": {
+   "estilo": "story",
+   "texto": "liberando el poder que hay en Riviera."
+  },
+  "story_16.webp": {
+   "estilo": "story",
+   "texto": "Los Magi eligieron a los agentes más poderosos"
+  },
+  "story_16_1.webp": {
+   "estilo": "story",
+   "texto": "para llevar a cabo su plan:"
+  },
+  "story_17.webp": {
+   "estilo": "story",
+   "texto": "ángeles de la muerte de alas negras con Diviners,"
+  },
+  "story_17_1.webp": {
+   "estilo": "story",
+   "texto": "los Ángeles de la Muerte…"
+  },
+  "story_18.webp": {
+   "estilo": "story",
+   "texto": "…renacidos"
+  },
+  "story_18_1.webp": {
+   "estilo": "story",
+   "texto": "por primera vez en 1000 años."
+  },
+  "story_19.webp": {
+   "estilo": "story",
+   "texto": "Ahora, dos ángeles descenderán"
+  },
+  "story_20.webp": {
+   "estilo": "story",
+   "texto": "sobre el suelo sagrado de Riviera…"
+  },
+  "scene_title_1.webp": {
+   "estilo": "title",
+   "texto": "Ángeles de la Muerte"
+  },
+  "scene_title_2.webp": {
+   "estilo": "title",
+   "texto": "Riviera, la Tierra Prometida"
+  },
+  "scene_title_3.webp": {
+   "estilo": "title",
+   "texto": "Los 7 Magi"
+  },
+  "scene_title_4.webp": {
+   "estilo": "title",
+   "texto": "el Segundo Advenimiento"
+  },
+  "1000year.webp": {
+   "estilo": "year",
+   "texto": "hace 1000 años"
+  }
+ },
+ "event/bg_ending.pck": {
+  "ext1_en39.webp": {
+   "estilo": "caption",
+   "texto": "De cuento a leyenda..."
+  }
+ },
+ "event/e_00.pck": {
+  "ext1_en01.webp": {
+   "estilo": "caption",
+   "texto": "Mientras la guerra se alarga..."
+  }
+ },
+ "event/e_01.pck": {
+  "ext1_en03.webp": {
+   "estilo": "caption",
+   "texto": "El jardín sagrado"
+  }
+ },
+ "event/e_02a.pck": {
+  "ext1_en02.webp": {
+   "estilo": "caption",
+   "texto": "La voluntad de los dioses"
+  }
+ },
+ "event/e_02b.pck": {
+  "ext1_en05.webp": {
+   "estilo": "caption",
+   "texto": "El Segundo Advenimiento"
+  }
+ },
+ "event/e_03.pck": {
+  "ext1_en04.webp": {
+   "estilo": "caption",
+   "texto": "El reino de los dioses"
+  }
+ },
+ "event/e_04.pck": {
+  "ext1_en07.webp": {
+   "estilo": "caption",
+   "texto": "La plegaria alada"
+  }
+ },
+ "event/e_05.pck": {
+  "ext1_en08.webp": {
+   "estilo": "caption",
+   "texto": "Rostros desconocidos"
+  }
+ },
+ "event/e_06.pck": {
+  "ext1_en09.webp": {
+   "estilo": "caption",
+   "texto": "Choque de espadas bajo la luna"
+  }
+ },
+ "event/e_07.pck": {
+  "ext1_en10.webp": {
+   "estilo": "caption",
+   "texto": "El despertar"
+  }
+ },
+ "event/e_08.pck": {
+  "ext1_en11.webp": {
+   "estilo": "caption",
+   "texto": "La bruja pelirroja"
+  }
+ },
+ "event/e_09.pck": {
+  "ext1_en12.webp": {
+   "estilo": "caption",
+   "texto": "Como hojas que caen"
+  }
+ },
+ "event/e_10.pck": {
+  "ext1_en13.webp": {
+   "estilo": "caption",
+   "texto": "¡No soy un gato!"
+  }
+ },
+ "event/e_11.pck": {
+  "ext1_en14.webp": {
+   "estilo": "caption",
+   "texto": "Una tarde soleada..."
+  }
+ },
+ "event/e_12.pck": {
+  "ext1_en15.webp": {
+   "estilo": "caption",
+   "texto": "Ejecutando el plan"
+  }
+ },
+ "event/e_13.pck": {
+  "ext1_en16.webp": {
+   "estilo": "caption",
+   "texto": "Un paraíso submarino"
+  }
+ },
+ "event/e_14.pck": {
+  "ext1_en17.webp": {
+   "estilo": "caption",
+   "texto": "Un reencuentro inesperado"
+  }
+ },
+ "event/e_15.pck": {
+  "ext1_en18.webp": {
+   "estilo": "caption",
+   "texto": "Un tiempo de paz"
+  }
+ },
+ "event/e_16.pck": {
+  "ext1_en19.webp": {
+   "estilo": "caption",
+   "texto": "Invitación al caos"
+  }
+ },
+ "event/e_17.pck": {
+  "ext1_en20.webp": {
+   "estilo": "caption",
+   "texto": "Una noche tranquila"
+  }
+ },
+ "event/e_18.pck": {
+  "ext1_en21.webp": {
+   "estilo": "caption",
+   "texto": "Hacia la luz"
+  }
+ },
+ "event/e_19_1.pck": {
+  "ext1_en22.webp": {
+   "estilo": "caption",
+   "texto": "En nombre del destino..."
+  }
+ },
+ "event/e_19_2.pck": {
+  "ext1_en23.webp": {
+   "estilo": "caption",
+   "texto": "Muerte a cambio de vida"
+  }
+ },
+ "event/e_20.pck": {
+  "ext1_en24.webp": {
+   "estilo": "caption",
+   "texto": "El santuario oscuro"
+  }
+ },
+ "event/e_21.pck": {
+  "ext1_en25.webp": {
+   "estilo": "caption",
+   "texto": "Se caldean los ánimos"
+  }
+ },
+ "event/e_22_1.pck": {
+  "ext1_en26.webp": {
+   "estilo": "caption",
+   "texto": "Un dolor insoportable"
+  }
+ },
+ "event/e_22_2.pck": {
+  "ext1_en27.webp": {
+   "estilo": "caption",
+   "texto": "El advenimiento de Seth-Rah"
+  }
+ },
+ "event/e_23.pck": {
+  "ext1_en32.webp": {
+   "estilo": "caption",
+   "texto": "¡La gran fuga!"
+  }
+ },
+ "event/e_23a.pck": {
+  "ext1_en28.webp": {
+   "estilo": "caption",
+   "texto": "¡La gran fuga!"
+  }
+ },
+ "event/e_23b.pck": {
+  "ext1_en29.webp": {
+   "estilo": "caption",
+   "texto": "¡La gran fuga!"
+  }
+ },
+ "event/e_23c.pck": {
+  "ext1_en30.webp": {
+   "estilo": "caption",
+   "texto": "¡La gran fuga!"
+  }
+ },
+ "event/e_23d.pck": {
+  "ext1_en31.webp": {
+   "estilo": "caption",
+   "texto": "¡La gran fuga!"
+  }
+ },
+ "event/e_24.pck": {
+  "ext1_en33.webp": {
+   "estilo": "caption",
+   "texto": "El amanecer de un nuevo día"
+  }
+ },
+ "event/e_25.pck": {
+  "ext1_en34.webp": {
+   "estilo": "caption",
+   "texto": "La magia es misteriosa..."
+  }
+ },
+ "event/e_26.pck": {
+  "ext1_en35.webp": {
+   "estilo": "caption",
+   "texto": "La aventura continúa..."
+  }
+ },
+ "event/e_27.pck": {
+  "ext1_en36.webp": {
+   "estilo": "caption",
+   "texto": "En busca de magníficos tesoros..."
+  }
+ },
+ "event/e_27_ns.pck": {
+  "ext1_en36.webp": {
+   "estilo": "caption",
+   "texto": "En busca de magníficos tesoros..."
+  }
+ },
+ "event/e_28.pck": {
+  "ext1_en37.webp": {
+   "estilo": "caption",
+   "texto": "La plegaria que arrulla a Riviera"
+  }
+ },
+ "event/e_29.pck": {
+  "ext1_en38.webp": {
+   "estilo": "caption",
+   "texto": "¡¿Quién eres?!"
+  }
+ },
+ "event/e_psp_01.pck": {
+  "ext1_en_psp01.webp": {
+   "estilo": "caption",
+   "texto": "Los engranajes del destino comienzan a girar"
+  }
+ },
+ "event/e_psp_02.pck": {
+  "ext1_en_psp02.webp": {
+   "estilo": "caption",
+   "texto": "Un destino inseparable"
+  }
+ },
+ "event/e_psp_03.pck": {
+  "ext1_en_psp03.webp": {
+   "estilo": "caption",
+   "texto": "Palabras atesoradas en el corazón"
+  }
+ },
+ "event/e_psp_04.pck": {
+  "ext1_en_psp04.webp": {
+   "estilo": "caption",
+   "texto": "Palabras atesoradas en el corazón"
+  }
+ },
+ "event/e_psp_05.pck": {
+  "ext1_en_psp05.webp": {
+   "estilo": "caption",
+   "texto": "Palabras atesoradas en el corazón"
+  }
+ },
+ "event/e_psp_06.pck": {
+  "ext1_en_psp06.webp": {
+   "estilo": "caption",
+   "texto": "Palabras atesoradas en el corazón"
+  }
+ },
+ "event/e_psp_07.pck": {
+  "ext1_en_psp07.webp": {
+   "estilo": "caption",
+   "texto": "Ángel despiadado de las llamas"
+  }
+ },
+ "event/e_psp_08.pck": {
+  "ext1_en_psp08.webp": {
+   "estilo": "caption",
+   "texto": "Junto a las aguas de Tetyth..."
+  }
+ },
+ "event/e_psp_09.pck": {
+  "ext1_en_psp09.webp": {
+   "estilo": "caption",
+   "texto": "El místico Yggdrasil"
+  }
+ },
+ "event/e_psp_10.pck": {
+  "ext1_en_psp10.webp": {
+   "estilo": "caption",
+   "texto": "Presagios de lo que vendrá..."
+  }
+ },
+ "event/e_psp_11.pck": {
+  "ext1_en_psp11.webp": {
+   "estilo": "caption",
+   "texto": "El llamado de los prisioneros"
+  }
+ },
+ "event/e_psp_12.pck": {
+  "ext1_en_psp12.webp": {
+   "estilo": "caption",
+   "texto": "La puerta al Inframundo"
+  }
+ },
+ "event/e_psp_13.pck": {
+  "ext1_en_psp13.webp": {
+   "estilo": "caption",
+   "texto": "Una tarde soleada..."
+  }
+ },
+ "event/e_psp_14.pck": {
+  "ext1_en_psp14.webp": {
+   "estilo": "caption",
+   "texto": "¡Caos!"
+  }
+ },
+ "event/e_psp_15.pck": {
+  "ext1_en_psp15.webp": {
+   "estilo": "caption",
+   "texto": "Un tiempo de paz"
+  }
+ },
+ "event/e_psp_16.pck": {
+  "ext1_en_psp16.webp": {
+   "estilo": "caption",
+   "texto": "¡Pánico!"
+  }
+ },
+ "event/e_psp_17.pck": {
+  "ext1_en_psp17.webp": {
+   "estilo": "caption",
+   "texto": "Robo en el cementerio"
+  }
+ },
+ "event/e_psp_18.pck": {
+  "ext1_en_psp18.webp": {
+   "estilo": "caption",
+   "texto": "Vampiresas voluptuosas"
+  }
+ },
+ "event/e_psp_19.pck": {
+  "ext1_en_psp19.webp": {
+   "estilo": "caption",
+   "texto": "La actriz inocente"
+  }
+ },
+ "event/e_psp_20.pck": {
+  "ext1_en_psp20.webp": {
+   "estilo": "caption",
+   "texto": "Almas perdidas del tiempo"
+  }
+ },
+ "event/e_psp_21.pck": {
+  "ext1_en_psp21.webp": {
+   "estilo": "caption",
+   "texto": "¡Soy inocente!"
+  }
+ },
+ "event/e_psp_22.pck": {
+  "ext1_en_psp22.webp": {
+   "estilo": "caption",
+   "texto": "No estás solo"
+  }
+ },
+ "event/e_psp_23.pck": {
+  "ext1_en_psp23.webp": {
+   "estilo": "caption",
+   "texto": "Una plegaria sosegada"
+  }
+ },
+ "event/e_psp_24.pck": {
+  "ext1_en_psp24.webp": {
+   "estilo": "caption",
+   "texto": "El rumbo del futuro"
+  }
+ },
+ "event/e_psp_25.pck": {
+  "ext1_en_psp25.webp": {
+   "estilo": "caption",
+   "texto": "Alborotadores simpáticos"
+  }
+ },
+ "event/e_psp_26.pck": {
+  "ext1_en_psp26.webp": {
+   "estilo": "caption",
+   "texto": "Una batalla trágica"
+  }
+ },
+ "event/e_psp_27.pck": {
+  "ext1_en_psp27.webp": {
+   "estilo": "caption",
+   "texto": "La verdad revelada"
+  }
+ },
+ "event/e_psp_28.pck": {
+  "ext1_en_psp28.webp": {
+   "estilo": "caption",
+   "texto": "Protector de la Tierra Prometida"
+  }
+ },
+ "event/e_psp_29.pck": {
+  "ext1_en_psp29.webp": {
+   "estilo": "caption",
+   "texto": "Adversario de los dioses"
+  }
+ },
+ "event/e_psp_30.pck": {
+  "ext1_en_psp30.webp": {
+   "estilo": "caption",
+   "texto": "El que surca los cielos"
+  }
+ },
+ "event/e_psp_31.pck": {
+  "ext1_en_psp31.webp": {
+   "estilo": "caption",
+   "texto": "Una inmoral mensajera de los dioses"
+  }
+ },
+ "event/e_psp_32.pck": {
+  "ext1_en_psp32.webp": {
+   "estilo": "caption",
+   "texto": "Unificador de la oscuridad"
+  }
+ },
+ "event/e_psp_33.pck": {
+  "ext1_en_psp33.webp": {
+   "estilo": "caption",
+   "texto": "Razón fabricada"
+  }
+ },
+ "event/e_psp_34.pck": {
+  "ext1_en_psp34.webp": {
+   "estilo": "caption",
+   "texto": "Al final de un doloroso camino"
+  }
+ },
+ "event/e_psp_35.pck": {
+  "ext1_en_psp35.webp": {
+   "estilo": "caption",
+   "texto": "La última víctima"
+  }
+ },
+ "event/e_psp_36.pck": {
+  "ext1_en_psp36.webp": {
+   "estilo": "caption",
+   "texto": "La última víctima"
+  }
+ },
+ "event/e_psp_37.pck": {
+  "ext1_en_psp37.webp": {
+   "estilo": "caption",
+   "texto": "La última víctima"
+  }
+ },
+ "event/e_psp_38.pck": {
+  "ext1_en_psp38.webp": {
+   "estilo": "caption",
+   "texto": "La última víctima"
+  }
+ },
+ "event/e_psp_39.pck": {
+  "ext1_en_psp39.webp": {
+   "estilo": "caption",
+   "texto": "Cautiva de la muñeca siniestra"
+  }
+ },
+ "event/e_psp_40.pck": {
+  "ext1_en_psp40.webp": {
+   "estilo": "caption",
+   "texto": "Vida cotidiana"
+  }
+ },
+ "event/e_psp_41.pck": {
+  "ext1_en_psp41.webp": {
+   "estilo": "caption",
+   "texto": "Las palabras dichas son la llave"
+  }
+ },
+ "event/e_psp_42.pck": {
+  "ext1_en_psp42.webp": {
+   "estilo": "caption",
+   "texto": "Un breve descanso"
+  }
+ },
+ "event/e_psp_43.pck": {
+  "ext1_en_psp43.webp": {
+   "estilo": "caption",
+   "texto": "Alas vestidas de libertad"
+  }
+ },
+ "event/e_psp_44.pck": {
+  "ext1_en_psp44.webp": {
+   "estilo": "caption",
+   "texto": "La melodía de un concierto"
+  }
+ },
+ "event/e_psp_45.pck": {
+  "ext1_en_psp45.webp": {
+   "estilo": "caption",
+   "texto": "Un rescate en el aire"
+  }
+ },
+ "event/e_psp_46.pck": {
+  "ext1_en_psp46.webp": {
+   "estilo": "caption",
+   "texto": "Los vientos soplan por el bosque"
+  }
+ },
+ "event/e_psp_47.pck": {
+  "ext1_en_psp47.webp": {
+   "estilo": "caption",
+   "texto": "Un deseo encomendado"
+  }
+ },
+ "event/e_psp_48.pck": {
+  "ext1_en_psp48.webp": {
+   "estilo": "caption",
+   "texto": "Hacia sus respectivos mañanas..."
+  }
+ },
+ "event/e_psp_49.pck": {
+  "ext1_en_psp49.webp": {
+   "estilo": "caption",
+   "texto": "Un legado perdido de tiempos antiguos"
+  }
+ },
+ "event/e_psp_50.pck": {
+  "ext1_en_psp50.webp": {
+   "estilo": "caption",
+   "texto": "La fuente del silencio"
+  }
+ },
+ "event/e_psp_se1.pck": {
+  "ext01_eName_psp_se1.webp": {
+   "estilo": "caption",
+   "texto": "El origen de todo mal"
+  }
+ },
+ "event/e_psp_se2.pck": {
+  "ext01_eName_psp_se2.webp": {
+   "estilo": "caption",
+   "texto": "El origen de todo mal"
+  }
+ },
+ "event/e_psp_se3.pck": {
+  "ext01_eName_psp_se3.webp": {
+   "estilo": "caption",
+   "texto": "De vuelta al hogar..."
+  }
+ },
+ "event/e_psp_se4.pck": {
+  "ext01_eName_psp_se4.webp": {
+   "estilo": "caption",
+   "texto": "De vuelta a su destino..."
+  }
+ },
+ "event/r_title.pck": {
+  "ext1_en00.webp": {
+   "estilo": "caption",
+   "texto": "Hacia la fantasía"
+  }
+ },
+ "event/wakeup.pck": {
+  "ext1_en06.webp": {
+   "estilo": "caption",
+   "texto": "¿Todo listo?"
+  }
+ },
+ "event/demo2.pck": {
+  "chrCopy0.webp": {
+   "estilo": "chrcopy",
+   "texto": [
+    [
+     "El",
+     "small"
+    ],
+    [
+     "Ángel",
+     "big"
+    ],
+    [
+     "sin Alas",
+     "small"
+    ]
+   ]
+  },
+  "chrCopy1.webp": {
+   "estilo": "chrcopy",
+   "texto": [
+    [
+     "La",
+     "small"
+    ],
+    [
+     "Bruja",
+     "big"
+    ],
+    [
+     "Escarlata",
+     "small"
+    ]
+   ]
+  },
+  "chrCopy2.webp": {
+   "estilo": "chrcopy",
+   "texto": [
+    [
+     "La Valiente",
+     "small"
+    ],
+    [
+     "Segadora",
+     "big"
+    ]
+   ]
+  },
+  "chrCopy3.webp": {
+   "estilo": "chrcopy",
+   "texto": [
+    [
+     "La",
+     "small"
+    ],
+    [
+     "Arquera",
+     "big"
+    ],
+    [
+     "Enérgica",
+     "small"
+    ]
+   ]
+  },
+  "chrCopy4.webp": {
+   "estilo": "chrcopy",
+   "texto": [
+    [
+     "La",
+     "small"
+    ],
+    [
+     "Esgrimista",
+     "big"
+    ],
+    [
+     "Amable",
+     "small"
+    ]
+   ]
+  },
+  "chrCopy5.webp": {
+   "estilo": "chrcopy",
+   "texto": [
+    [
+     "El",
+     "small"
+    ],
+    [
+     "Ángel",
+     "big"
+    ],
+    [
+     "Solitario",
+     "small"
+    ]
+   ]
+  }
+ },
+ "event/chapter1.pck": {
+  "chap1_cap.webp": {
+   "estilo": "chapter",
+   "texto": [
+    "Capítulo.1",
+    "Advenimiento Angelical"
+   ]
+  }
+ },
+ "event/chapter2.pck": {
+  "chap2_cap.webp": {
+   "estilo": "chapter",
+   "texto": [
+    "Capítulo.2",
+    "En busca de la Verdad"
+   ]
+  }
+ },
+ "event/chapter3.pck": {
+  "chap3_cap.webp": {
+   "estilo": "chapter",
+   "texto": [
+    "Capítulo.3",
+    "Los Malditos"
+   ]
+  }
+ },
+ "event/chapter4.pck": {
+  "chap4_cap.webp": {
+   "estilo": "chapter",
+   "texto": [
+    "Capítulo.4",
+    "Sabiduría Sumergida"
+   ]
+  }
+ },
+ "event/chapter5.pck": {
+  "chap5_cap.webp": {
+   "estilo": "chapter",
+   "texto": [
+    "Capítulo.5",
+    "Seres Eternos"
+   ]
+  }
+ },
+ "event/chapter6.pck": {
+  "chap6_cap.webp": {
+   "estilo": "chapter",
+   "texto": [
+    "Capítulo.6",
+    "La Tierra Prometida"
+   ]
+  }
+ },
+ "event/chapter7.pck": {
+  "chap7_cap.webp": {
+   "estilo": "chapter",
+   "texto": [
+    "Capítulo.7",
+    "Dentro de la Oscuridad"
+   ]
+  }
+ },
+ "event/chapter8.pck": {
+  "chap8_cap.webp": {
+   "estilo": "chapter",
+   "texto": [
+    "Capítulo.8",
+    "El Inframundo"
+   ]
+  }
+ },
+ "event/wmapParts.pck": {
+  "miniName0.webp": {
+   "estilo": "mapname",
+   "texto": "Una aldea tranquila y apacible"
+  },
+  "miniName1.webp": {
+   "estilo": "mapname",
+   "texto": "El camino a la Tierra Prometida"
+  },
+  "miniName2.webp": {
+   "estilo": "mapname",
+   "texto": "El castillo bañado por la luna"
+  },
+  "miniName3.webp": {
+   "estilo": "mapname",
+   "texto": "Ruinas antiguas en lo profundo del bosque"
+  },
+  "miniName4.webp": {
+   "estilo": "mapname",
+   "texto": "La ciudad del saber perdido"
+  },
+  "miniName5.webp": {
+   "estilo": "mapname",
+   "texto": "El cementerio del mal acechante"
+  },
+  "miniName6.webp": {
+   "estilo": "mapname",
+   "texto": "El santuario de la sabiduría venerada"
+  },
+  "miniName7.webp": {
+   "estilo": "mapname",
+   "texto": "El laberinto de la oscuridad eterna"
+  },
+  "miniName8.webp": {
+   "estilo": "mapname",
+   "texto": "La guarida inexplorada del caos"
+  }
+ },
+ "System/systemTexture.pck": {
+  "cutin_text.webp": {
+   "estilo": "poem",
+   "texto": [
+    "La pluma angelical será daga de justicia.",
+    "Las llamas ardientes envolverán el mal.",
+    "La hoja gloriosa brilla con la verdad.",
+    "La bruja escarlata invocará un infierno.",
+    "Las alas negras encarnarán la justicia.",
+    "Lloverán flechas desde los cielos.",
+    "El sable sagrado purificará la oscuridad.",
+    "El felino crecerá como un dragón.",
+    "Lo sagrado eclipsará la oscuridad."
+   ]
+  }
+ }
+}

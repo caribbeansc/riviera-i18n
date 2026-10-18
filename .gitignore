@@ -1,0 +1,52 @@
+# ─── Never commit anything that came out of the game ────────────────────────
+# Your dumps, and anything extracted from them.
+game/
+exefs/
+romfs/
+*.xci
+*.nsp
+*.nca
+*.tik
+*.keys
+*.nso
+*.apk
+*.xapk
+*.apks
+*.obb
+
+# The local working area: the game's own text next to the translation, extracted
+# containers, inventories, caches. This is where the game's text lives.
+work/
+
+# Generated mods and packaged releases.
+build/
+dist/
+
+# Third-party extraction binaries: the patcher workflow fetches these per
+# platform at build time; they are never committed.
+tools/bin/
+*.xcz
+*.nsz
+
+# Local configuration (points at your own dumps) and signing keys.
+rpl.config.json
+*.keystore
+*.jks
+
+# ─── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+
+# ─── Editors and OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
